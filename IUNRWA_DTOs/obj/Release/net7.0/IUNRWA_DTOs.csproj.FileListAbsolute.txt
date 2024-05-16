@@ -1,0 +1,17 @@
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_DTOs\bin\Release\net7.0\IUNRWA_DTOs.deps.json
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_DTOs\bin\Release\net7.0\IUNRWA_DTOs.dll
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_DTOs\bin\Release\net7.0\IUNRWA_DTOs.pdb
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_DTOs\bin\Release\net7.0\IUNRWA_Model.dll
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_DTOs\bin\Release\net7.0\IUNRWA_ShareKernal.dll
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_DTOs\bin\Release\net7.0\IUNRWA_Model.pdb
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_DTOs\bin\Release\net7.0\IUNRWA_ShareKernal.pdb
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_DTOs\obj\Release\net7.0\IUNRWA_DTOs.csproj.AssemblyReference.cache
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_DTOs\obj\Release\net7.0\IUNRWA_DTOs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_DTOs\obj\Release\net7.0\IUNRWA_DTOs.AssemblyInfoInputs.cache
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_DTOs\obj\Release\net7.0\IUNRWA_DTOs.AssemblyInfo.cs
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_DTOs\obj\Release\net7.0\IUNRWA_DTOs.csproj.CoreCompileInputs.cache
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_DTOs\obj\Release\net7.0\IUNRWA_DTOs.csproj.CopyComplete
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_DTOs\obj\Release\net7.0\IUNRWA_DTOs.dll
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_DTOs\obj\Release\net7.0\refint\IUNRWA_DTOs.dll
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_DTOs\obj\Release\net7.0\IUNRWA_DTOs.pdb
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_DTOs\obj\Release\net7.0\ref\IUNRWA_DTOs.dll

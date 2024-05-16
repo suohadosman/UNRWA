@@ -1,0 +1,361 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_Service\\IUNRWA_Service.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_DTOs\\IUNRWA_DTOs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_DTOs\\IUNRWA_DTOs.csproj",
+        "projectName": "IUNRWA_DTOs",
+        "projectPath": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_DTOs\\IUNRWA_DTOs.csproj",
+        "packagesPath": "C:\\Users\\rama\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_DTOs\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rama\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\rama\\Desktop\\CraftCode\\craftlabcore.nugets": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_Model\\IUNRWA_Model.csproj": {
+                "projectPath": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_Model\\IUNRWA_Model.csproj"
+              },
+              "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_ShareKernal\\IUNRWA_ShareKernal.csproj": {
+                "projectPath": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_ShareKernal\\IUNRWA_ShareKernal.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_Model\\IUNRWA_Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_Model\\IUNRWA_Model.csproj",
+        "projectName": "IUNRWA_Model",
+        "projectPath": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_Model\\IUNRWA_Model.csproj",
+        "packagesPath": "C:\\Users\\rama\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rama\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\rama\\Desktop\\CraftCode\\craftlabcore.nugets": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_ShareKernal\\IUNRWA_ShareKernal.csproj": {
+                "projectPath": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_ShareKernal\\IUNRWA_ShareKernal.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_Repository\\IUNRWA_Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_Repository\\IUNRWA_Repository.csproj",
+        "projectName": "IUNRWA_Repository",
+        "projectPath": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_Repository\\IUNRWA_Repository.csproj",
+        "packagesPath": "C:\\Users\\rama\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rama\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\rama\\Desktop\\CraftCode\\craftlabcore.nugets": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_Model\\IUNRWA_Model.csproj": {
+                "projectPath": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_Model\\IUNRWA_Model.csproj"
+              },
+              "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_ShareKernal\\IUNRWA_ShareKernal.csproj": {
+                "projectPath": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_ShareKernal\\IUNRWA_ShareKernal.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_Service\\IUNRWA_Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_Service\\IUNRWA_Service.csproj",
+        "projectName": "IUNRWA_Service",
+        "projectPath": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_Service\\IUNRWA_Service.csproj",
+        "packagesPath": "C:\\Users\\rama\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rama\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\rama\\Desktop\\CraftCode\\craftlabcore.nugets": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_DTOs\\IUNRWA_DTOs.csproj": {
+                "projectPath": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_DTOs\\IUNRWA_DTOs.csproj"
+              },
+              "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_Repository\\IUNRWA_Repository.csproj": {
+                "projectPath": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_Repository\\IUNRWA_Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_ShareKernal\\IUNRWA_ShareKernal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_ShareKernal\\IUNRWA_ShareKernal.csproj",
+        "projectName": "IUNRWA_ShareKernal",
+        "projectPath": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_ShareKernal\\IUNRWA_ShareKernal.csproj",
+        "packagesPath": "C:\\Users\\rama\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_ShareKernal\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rama\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\rama\\Desktop\\CraftCode\\craftlabcore.nugets": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

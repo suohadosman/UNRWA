@@ -1,0 +1,223 @@
+﻿@model NCDNurseViewDto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link rel="stylesheet" href="~/css/NCDNurse/Complication2.css" />
+    <!--Links For Models-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    <!--Table Links-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css" rel="stylesheet" id="bootstrap-css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.csshttps://cdn.datatables.net/1.13.5/css/dataTables.bootstrap4.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdn.datatables.net/1.13.5/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.5/js/dataTables.bootstrap4.min.js"></script>
+    <!--Icon Link-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="~/css/All/Toaster.css">
+    <title>Document</title>
+</head>
+<body>
+    @section Scripts{
+            <partial name="_ValidationScriptsPartial">
+            }
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #1d86df; height: 3.5rem; z-index :0">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="font-size: 17px;"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavDropdown" style="background-color: #1d86df;">
+                <ul class="navbar-nav" style="background-color: w;">
+                    <li class="nav-item active">
+                        <a class="navbar-brand ">
+                            <img src="~/images/user-color-64.png" alt="logo" class="img1 img-fluid">
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" style="font-size: 17px;">@Model.User.UserName</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" style="font-size: 17px;">@Model.User.HealthCenter.Name Center</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" style="font-size: 17px;">@Model.User.Team.Name Team</a>
+
+                    </li>
+                    <li class="nav-item active">
+                        <a asp-action="NCDPatientInfo" asp-controller="NCDNurse" asp-route-personId="@Model.PersonId" asp-route-reservationId="0" class="nav-link btn" id="logout-icon"
+                           style="font-size: 17px; border: solid 1px; width: 132px; padding: 6px;text-align: center;">
+                            Back
+                        </a>
+
+                    </li>
+                    <li class="nav-item active">
+                        <a asp-action="Logout" asp-controller="Clerick" class="nav-link btn" id="logout-icon"
+                           style="font-size: 17px; border: solid 1px; width: 132px; padding: 6px;text-align: center;">
+                            Logout
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z" />
+                                <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
+                            </svg>
+                        </a>
+
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="nav__icons">
+                <img src="~/images/unrwa-logo-0DB0E000FE-seeklogo.com.png" alt="logo" class=" img__1 img-fluid">
+            </div>
+
+
+        </nav>
+
+            <!--Notifications-->
+            <div id="snackbar">Some text some message..</div>
+            @if (TempData["success"] != null)
+            {
+                <script>
+                    var x = document.getElementById("snackbar");
+                    x.className = "show";
+                    x.innerText = "Add Late Compilation success"
+                    setTimeout(function () { x.className = x.className.replace("show", ""); }, 3000);
+                </script>
+            }
+            @if (TempData["failed"] != null)
+            {
+                <script>
+                    var x = document.getElementById("snackbar");
+                    x.className = "error";
+                    x.innerText = "Add Late Compilation  failed"
+                    setTimeout(function () { x.className = x.className.replace("error", ""); }, 3000);
+                </script>
+
+            }
+    <div class="container">
+        <h1 style="text-align: center; color: #1d86df; margin-top: 70px">
+            Complication
+        </h1>
+            <div calss="row" style="width: 185px; margin-left: 82%; margin-bottom: 10px;">
+                <a style="color: aliceblue; width: auto;"
+                   href=""
+                   target="_blank"
+                   data-toggle="modal"
+                   data-target="#exampleModal_2"
+                   data-scroll
+                   class="btn btn-light btn-radius button_2 btn-brd grd1 effect-1">
+                    Add Complication
+                </a>
+            </div>
+       
+                <table id="example" class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Late Compilatiion Name</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.PersonLateComplications)
+                            {
+                                <tr>
+                                    <td>@item.LateComplicationName</td>
+                                    <td>@item.FollowUpVisitDate</td>
+                                    @if(item.Status)
+                            {
+                                        <td>Advanced</td>
+                            }
+                            else
+                            {
+                                <td>Late</td>
+                            }
+                        </tr>
+                            }
+                </tbody>
+            </table>
+    </div>
+    <div class="modal fade"
+         id="exampleModal_2"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <form method="post" class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"
+                        id="exampleModalLabel"
+                        style="color: #1d86df">
+                        Add Complication
+                    </h5>
+                    <button type="button"
+                            class="close"
+                            data-dismiss="modal"
+                            aria-label="Close"
+                            style="color: #1d86df">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" style="color: #1d86df">
+                    <div class="user-input-box">
+                        <label style="font-weight: 700">Name</label>
+
+
+                                <select asp-for="@Model.LateComplicationId" asp-items="@(new SelectList(Model.AllLateComplications,"LateComplicationId","LateComplicationName"))"
+                                        class="form-select"
+                                        aria-label="Default select example"
+                                        style="width: 95%; height: 40px; color: #1d86df">
+                                    <option selected></option>
+                                </select>
+                    </div>
+
+                    <div class="gender-details-box" style="margin-top: 40px">
+                        <span class="gender-title" style="font-weight: 700">Status</span>
+
+                        <div class="gender-category">
+                                    <input asp-for="@Model.PersonId" value="@Model.PersonId" type="hidden">
+                                    <input asp-for="@Model.FollowUpVisitId" value="@Model.FollowUpVisitId" type="hidden">
+                                    <input type="radio" asp-for="@Model.LateComplicationStatus" value="false">
+                                    <label>late</label>
+
+                                    <input type="radio" asp-for="@Model.LateComplicationStatus" value="true" checked>
+
+                            <label for="female" style="padding-left: 1px">advanced</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                            <button asp-action="AddFollowUpLateComplication" asp-controller="NCDNurse"
+                        type="submit"
+                            class="btn btn-primary button_2 btn-brd grd1 effect-1">
+                        Add
+                    </button>
+                    <button type="button"
+                            class="btn btn-secondary button_2 btn-brd grd1 effect-1"
+                            data-dismiss="modal">
+                        Cancel
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+  
+</body>
+</html>
+<script src="~/js/QUEUE.js"></script>
+<style>
+    #example_wrapper {
+        box-shadow: 0em 0em 20px 0px #9e9e9e;
+        padding: 27px;
+    }
+</style>
+

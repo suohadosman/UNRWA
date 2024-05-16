@@ -1,0 +1,239 @@
+
+.img1{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; 
+}
+
+
+.logo__name{
+  color: white !important;
+}
+.nav-link{
+  color: white !important ;
+
+}
+.img__1{
+  width: 50px;
+  height: 50px;
+}
+
+.navbar-nav{
+  margin-left: 8rem;
+}
+
+.nav-item{
+  margin:0 1rem;
+  font-weight: 600;
+  color: var(--brown-color);
+}
+
+
+@media screen and (max-width:1000px){
+  .nav__icons{
+    display: none ;
+  }
+  body{
+    overflow-x: hidden;
+  }
+}
+
+
+
+.button_1 {
+  background: linear-gradient(to right, #1d86df 0%, #39b49a 100%);
+  border: none;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #fff !important;
+  padding: 8px 30px;
+  border-radius: 50px;
+  transition: ease all 1s;
+  font-weight: 600;
+}
+.button_1:hover,.button_1:focus {
+  background: linear-gradient(to right, #39b49a 0%, #1d86df 100%);}
+
+
+
+
+  table,td{
+    border: 1px solid #a9b8c9;
+  
+    text-align: center;
+  }
+ .table_box{
+  
+margin-top: 2rem;
+
+padding: 30px;
+
+
+ }
+ .head{
+  font-family: "Hind", sans-serif;
+font-weight: 700 !important;
+
+color: #1d86df !important;
+margin-bottom: 1px;
+background: linear-gradient(50deg, #1d86df, #39b49a);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+ }
+
+
+
+
+
+.header{
+padding-left: 50px;
+padding-top: 60px;
+font-family: "Hind", sans-serif;
+font-weight: 700 !important;
+display: block;
+color: #1d86df !important;
+
+
+}
+
+
+
+
+
+
+
+
+.content {
+
+    height: 100px;
+        background:     linear-gradient(50deg, #1d86df, #39b49a);
+        color: #fff;
+       
+       
+      }
+      
+    
+      
+      textarea {
+      overflow-y: scroll;
+        width: 100%;
+        height: 30vh;
+        padding: 1em;
+        font-size: 1.5em;
+        text-align: left;
+        border: 3px solid linear-gradient(50deg, #1d86df, #39b49a);
+        resize: none;
+      }
+      textarea:focus{
+        border: 3px solid #1d86df  !important;
+      }
+     .button_2{
+       width: 100%;
+       border: 2px solid #1d86df ;
+       background-color: white;
+       color: #1d86df;
+     }
+     .button_2:hover{
+     
+    
+      background:  linear-gradient(50deg, #1d86df, #39b49a);
+      color: white;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .inner {
+      max-width: 688px;
+      margin: auto;
+      background:linear-gradient(50deg, #1d86df, #39b49a) ;
+    height: 500px;
+      padding: 77px 99px 87px;
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+      -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+      -ms-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+      -o-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2); }
+    
+    
+    
+    .form-group {
+      position: relative;
+      display: block;
+
+    }
+      .form-group span {
+        font-size: 15px;
+        color: red;
+        position: initial;
+        top: 11px;
+        transition: all .2s ease;
+        transform-origin: 0 0;
+        cursor: text; 
+        width:400px;
+      }
+span#addAppointmentDto_ServiceId-error{
+    color:red;
+}
+.form-group span.border {
+    height: 2px;
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 41px;
+    transform: scaleX(0);
+    transition: all .15s ease;
+    background: #fff;
+}
+    
+    .form-control {
+      border: none;
+      border-bottom: 2px solid white;
+      display: block;
+      width: 100%;
+      height: 43px;
+      font-size: 15px;
+      background: none;
+      font-family: "Montserrat-SemiBold"; }
+      .form-control:focus, .form-control:valid {
+        border-bottom: 2px solid #fff; }
+        .form-control:focus + span, .form-control:valid + span {
+          transform: translateY(-35px) scale(0.8); }
+          .form-control:focus + span + .border, .form-control:valid + span + .border {
+            transform: scaleX(1); }
+    
+    textarea.form-control {
+      padding-top: 20px;
+      padding-bottom: 10px; }
+    
+    
+    
+          @media (max-width: 767px) {
+            h3 {
+              font-size: 38px; }
+          
+            p {
+              font-size: 14px;
+              padding: 0; }
+          
+            .inner {
+              padding: 27px 20px 37px;
+              border: none;
+              box-shadow: none;
+              -webkit-box-shadow: none;
+              -moz-box-shadow: none;
+              -ms-box-shadow: none;
+              -o-box-shadow: none; }
+          
+            }

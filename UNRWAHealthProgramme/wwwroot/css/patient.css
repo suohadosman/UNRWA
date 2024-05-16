@@ -1,0 +1,101 @@
+table{
+    width:100%;
+   
+
+}
+#example_filter{
+    float:right;
+    color: #0071d1;
+}
+#example_paginate{
+    float:right;
+    color: #0071d1;
+}
+label {
+    display: inline-flex;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    color: #0071d1;
+   
+}
+table ,th{
+    color: #0071d1;
+    text-align: center;
+}
+
+.img1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+  }
+  
+  
+  .logo__name{
+    color: white !important;
+  }
+  .nav-link{
+    color: white !important ;
+  
+  }
+  .img__1{
+    width: 40px;
+    height: 40px;
+  }
+  
+  .navbar-nav{
+    margin-left: 8rem;
+  }
+  
+  .nav-item{
+    margin:0 1rem;
+
+    font-weight: 600;
+    color: var(--brown-color);
+  }
+  .nav-item a:hover{
+ 
+ 
+    color: #0060b1 !important;
+  }
+ 
+  
+  @media screen and (max-width:1000px){
+    .nav__icons{
+      display: none ;
+    }
+    .nav-item{
+        display: grid !important;
+      }
+    body{
+      overflow-x: hidden;
+    }
+  }
+.toastDisplay {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: blue;
+    color: red;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    width:200px;
+    height:200px;
+}
+.toastHidden {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+}
+
+.toater {
+    background-color: forestgreen;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+}

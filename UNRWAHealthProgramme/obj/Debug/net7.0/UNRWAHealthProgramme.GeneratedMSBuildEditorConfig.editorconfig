@@ -1,0 +1,265 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = UNRWAHealthProgramme
+build_property.RootNamespace = UNRWAHealthProgramme
+build_property.ProjectDir = C:\Users\rama\Desktop\UNRWA\graduit_project\UNRWAHealthProgramme\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\rama\Desktop\UNRWA\graduit_project\UNRWAHealthProgramme
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Clerick/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xlcmlja1xIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Clerick/Naming.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xlcmlja1xOYW1pbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Clerick/Reservations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xlcmlja1xSZXNlcnZhdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Doctor/AllNextReservations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXEFsbE5leHRSZXNlcnZhdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Doctor/AllPreview.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXEFsbFByZXZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Doctor/CreatePreview.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXENyZWF0ZVByZXZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Doctor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Doctor/LabTests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXExhYlRlc3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Doctor/Medicines.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXE1lZGljaW5lcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Doctor/PatientInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFBhdGllbnRJbmZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Doctor/PatientLabTests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFBhdGllbnRMYWJUZXN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Doctor/PatientMedicines.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFBhdGllbnRNZWRpY2luZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Doctor/PatientMesurements.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFBhdGllbnRNZXN1cmVtZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Doctor/PatientNCDMedicines.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFBhdGllbnROQ0RNZWRpY2luZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Doctor/Queue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFF1ZXVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/MeasurementNurse/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVhc3VyZW1lbnROdXJzZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/MeasurementNurse/Queue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVhc3VyZW1lbnROdXJzZVxRdWV1ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/MeasurementNurse/UnDonePersonMeasurement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVhc3VyZW1lbnROdXJzZVxVbkRvbmVQZXJzb25NZWFzdXJlbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/NCDNurse/AnnualFolowUpLabTest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkNETnVyc2VcQW5udWFsRm9sb3dVcExhYlRlc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/NCDNurse/CreateNCDCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkNETnVyc2VcQ3JlYXRlTkNEQ2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/NCDNurse/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkNETnVyc2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/NCDNurse/MonthlyFolowUpLabTest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkNETnVyc2VcTW9udGhseUZvbG93VXBMYWJUZXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/NCDNurse/NCDPatientInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkNETnVyc2VcTkNEUGF0aWVudEluZm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/NCDNurse/PersonLateComplication.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkNETnVyc2VcUGVyc29uTGF0ZUNvbXBsaWNhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/NCDNurse/PersonMesurements.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkNETnVyc2VcUGVyc29uTWVzdXJlbWVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/NCDNurse/Queue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTkNETnVyc2VcUXVldWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Patient/AllMeasurements.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxBbGxNZWFzdXJlbWVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Patient/AllNextReservations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxBbGxOZXh0UmVzZXJ2YXRpb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Patient/AllPatientIllness.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxBbGxQYXRpZW50SWxsbmVzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Patient/AllPatientLabTests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxBbGxQYXRpZW50TGFiVGVzdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Patient/AllPatientMedicines.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxBbGxQYXRpZW50TWVkaWNpbmVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Patient/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Patient/NCDPatientInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxOQ0RQYXRpZW50SW5mby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Patient/PatientAnnualLabTest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxQYXRpZW50QW5udWFsTGFiVGVzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Patient/PatientLateComplication.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxQYXRpZW50TGF0ZUNvbXBsaWNhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Patient/PatientMesurements.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxQYXRpZW50TWVzdXJlbWVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Patient/PatientMonthlyFolowUpLabTest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxQYXRpZW50TW9udGhseUZvbG93VXBMYWJUZXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Patient/Welcome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxXZWxjb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/pharmacist/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccGhhcm1hY2lzdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/pharmacist/PharmacyRecords.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccGhhcm1hY2lzdFxQaGFybWFjeVJlY29yZHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/pharmacist/RecipeRecords.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NccGhhcm1hY2lzdFxSZWNpcGVSZWNvcmRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Shared/_nav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9uYXYuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Tester/DoneTests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGVyXERvbmVUZXN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Tester/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Tester/InsertTRResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGVyXEluc2VydFRSUmVzdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Tester/InsertValueResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGVyXEluc2VydFZhbHVlUmVzdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Tester/LabTestManagement.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGVyXExhYlRlc3RNYW5hZ2VtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Tester/NCDDoneTests.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGVyXE5DRERvbmVUZXN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Tester/NCDInsertTRResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGVyXE5DREluc2VydFRSUmVzdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Tester/NCDInsertValueResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGVyXE5DREluc2VydFZhbHVlUmVzdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Tester/NCDPersonLabTestsInDate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGVyXE5DRFBlcnNvbkxhYlRlc3RzSW5EYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Tester/NCDQueue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGVyXE5DRFF1ZXVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Tester/NCDReports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGVyXE5DRFJlcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Tester/PersonLabTestsInDate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGVyXFBlcnNvbkxhYlRlc3RzSW5EYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Tester/PersonLabTestsInDate2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGVyXFBlcnNvbkxhYlRlc3RzSW5EYXRlMi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Tester/Queue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGVyXFF1ZXVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/Tester/Reports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVzdGVyXFJlcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rama/Desktop/UNRWA/graduit_project/UNRWAHealthProgramme/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

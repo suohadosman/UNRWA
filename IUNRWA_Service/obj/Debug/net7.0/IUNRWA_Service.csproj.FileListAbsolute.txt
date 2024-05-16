@@ -1,0 +1,67 @@
+C:\Users\العبه جي\Desktop\GraduitProject - Copy\UNRWAProgrmme\IUNRWA_Service\bin\Debug\net7.0\IUNRWA_Service.deps.json
+C:\Users\العبه جي\Desktop\GraduitProject - Copy\UNRWAProgrmme\IUNRWA_Service\bin\Debug\net7.0\IUNRWA_Service.dll
+C:\Users\العبه جي\Desktop\GraduitProject - Copy\UNRWAProgrmme\IUNRWA_Service\bin\Debug\net7.0\IUNRWA_Service.pdb
+C:\Users\العبه جي\Desktop\GraduitProject - Copy\UNRWAProgrmme\IUNRWA_Service\bin\Debug\net7.0\IUNRWA_DTOs.dll
+C:\Users\العبه جي\Desktop\GraduitProject - Copy\UNRWAProgrmme\IUNRWA_Service\bin\Debug\net7.0\IUNRWA_Model.dll
+C:\Users\العبه جي\Desktop\GraduitProject - Copy\UNRWAProgrmme\IUNRWA_Service\bin\Debug\net7.0\IUNRWA_Repository.dll
+C:\Users\العبه جي\Desktop\GraduitProject - Copy\UNRWAProgrmme\IUNRWA_Service\bin\Debug\net7.0\IUNRWA_ShareKernal.dll
+C:\Users\العبه جي\Desktop\GraduitProject - Copy\UNRWAProgrmme\IUNRWA_Service\bin\Debug\net7.0\IUNRWA_DTOs.pdb
+C:\Users\العبه جي\Desktop\GraduitProject - Copy\UNRWAProgrmme\IUNRWA_Service\bin\Debug\net7.0\IUNRWA_Repository.pdb
+C:\Users\العبه جي\Desktop\GraduitProject - Copy\UNRWAProgrmme\IUNRWA_Service\bin\Debug\net7.0\IUNRWA_Model.pdb
+C:\Users\العبه جي\Desktop\GraduitProject - Copy\UNRWAProgrmme\IUNRWA_Service\bin\Debug\net7.0\IUNRWA_ShareKernal.pdb
+C:\Users\العبه جي\Desktop\GraduitProject - Copy\UNRWAProgrmme\IUNRWA_Service\obj\Debug\net7.0\IUNRWA_Service.csproj.AssemblyReference.cache
+C:\Users\العبه جي\Desktop\GraduitProject - Copy\UNRWAProgrmme\IUNRWA_Service\obj\Debug\net7.0\IUNRWA_Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\العبه جي\Desktop\GraduitProject - Copy\UNRWAProgrmme\IUNRWA_Service\obj\Debug\net7.0\IUNRWA_Service.AssemblyInfoInputs.cache
+C:\Users\العبه جي\Desktop\GraduitProject - Copy\UNRWAProgrmme\IUNRWA_Service\obj\Debug\net7.0\IUNRWA_Service.AssemblyInfo.cs
+C:\Users\العبه جي\Desktop\GraduitProject - Copy\UNRWAProgrmme\IUNRWA_Service\obj\Debug\net7.0\IUNRWA_Service.csproj.CoreCompileInputs.cache
+C:\Users\العبه جي\Desktop\GraduitProject - Copy\UNRWAProgrmme\IUNRWA_Service\obj\Debug\net7.0\IUNRWA_Service.csproj.CopyComplete
+C:\Users\العبه جي\Desktop\GraduitProject - Copy\UNRWAProgrmme\IUNRWA_Service\obj\Debug\net7.0\IUNRWA_Service.dll
+C:\Users\العبه جي\Desktop\GraduitProject - Copy\UNRWAProgrmme\IUNRWA_Service\obj\Debug\net7.0\refint\IUNRWA_Service.dll
+C:\Users\العبه جي\Desktop\GraduitProject - Copy\UNRWAProgrmme\IUNRWA_Service\obj\Debug\net7.0\IUNRWA_Service.pdb
+C:\Users\العبه جي\Desktop\GraduitProject - Copy\UNRWAProgrmme\IUNRWA_Service\obj\Debug\net7.0\ref\IUNRWA_Service.dll
+C:\Users\العبه جي\Source\Repos\graduit_project\IUNRWA_Service\bin\Debug\net7.0\IUNRWA_Service.deps.json
+C:\Users\العبه جي\Source\Repos\graduit_project\IUNRWA_Service\bin\Debug\net7.0\IUNRWA_Service.dll
+C:\Users\العبه جي\Source\Repos\graduit_project\IUNRWA_Service\bin\Debug\net7.0\IUNRWA_Service.pdb
+C:\Users\العبه جي\Source\Repos\graduit_project\IUNRWA_Service\bin\Debug\net7.0\IUNRWA_DTOs.dll
+C:\Users\العبه جي\Source\Repos\graduit_project\IUNRWA_Service\bin\Debug\net7.0\IUNRWA_Model.dll
+C:\Users\العبه جي\Source\Repos\graduit_project\IUNRWA_Service\bin\Debug\net7.0\IUNRWA_Repository.dll
+C:\Users\العبه جي\Source\Repos\graduit_project\IUNRWA_Service\bin\Debug\net7.0\IUNRWA_ShareKernal.dll
+C:\Users\العبه جي\Source\Repos\graduit_project\IUNRWA_Service\bin\Debug\net7.0\IUNRWA_DTOs.pdb
+C:\Users\العبه جي\Source\Repos\graduit_project\IUNRWA_Service\bin\Debug\net7.0\IUNRWA_Repository.pdb
+C:\Users\العبه جي\Source\Repos\graduit_project\IUNRWA_Service\bin\Debug\net7.0\IUNRWA_Model.pdb
+C:\Users\العبه جي\Source\Repos\graduit_project\IUNRWA_Service\bin\Debug\net7.0\IUNRWA_ShareKernal.pdb
+C:\Users\العبه جي\Source\Repos\graduit_project\IUNRWA_Service\obj\Debug\net7.0\IUNRWA_Service.csproj.AssemblyReference.cache
+C:\Users\العبه جي\Source\Repos\graduit_project\IUNRWA_Service\obj\Debug\net7.0\IUNRWA_Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\العبه جي\Source\Repos\graduit_project\IUNRWA_Service\obj\Debug\net7.0\IUNRWA_Service.AssemblyInfoInputs.cache
+C:\Users\العبه جي\Source\Repos\graduit_project\IUNRWA_Service\obj\Debug\net7.0\IUNRWA_Service.AssemblyInfo.cs
+C:\Users\العبه جي\Source\Repos\graduit_project\IUNRWA_Service\obj\Debug\net7.0\IUNRWA_Service.csproj.CoreCompileInputs.cache
+C:\Users\العبه جي\Source\Repos\graduit_project\IUNRWA_Service\obj\Debug\net7.0\IUNRWA_Service.csproj.CopyComplete
+C:\Users\العبه جي\Source\Repos\graduit_project\IUNRWA_Service\obj\Debug\net7.0\IUNRWA_Service.dll
+C:\Users\العبه جي\Source\Repos\graduit_project\IUNRWA_Service\obj\Debug\net7.0\refint\IUNRWA_Service.dll
+C:\Users\العبه جي\Source\Repos\graduit_project\IUNRWA_Service\obj\Debug\net7.0\IUNRWA_Service.pdb
+C:\Users\العبه جي\Source\Repos\graduit_project\IUNRWA_Service\obj\Debug\net7.0\ref\IUNRWA_Service.dll
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_Service\bin\Debug\net7.0\IUNRWA_Service.deps.json
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_Service\bin\Debug\net7.0\IUNRWA_Service.dll
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_Service\bin\Debug\net7.0\IUNRWA_Service.pdb
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_Service\bin\Debug\net7.0\IUNRWA_DTOs.dll
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_Service\bin\Debug\net7.0\IUNRWA_Model.dll
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_Service\bin\Debug\net7.0\IUNRWA_Repository.dll
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_Service\bin\Debug\net7.0\IUNRWA_ShareKernal.dll
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_Service\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.dll
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_Service\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_Service\bin\Debug\net7.0\IUNRWA_DTOs.pdb
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_Service\bin\Debug\net7.0\IUNRWA_Repository.pdb
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_Service\bin\Debug\net7.0\IUNRWA_Model.pdb
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_Service\bin\Debug\net7.0\IUNRWA_ShareKernal.pdb
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_Service\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.xml
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_Service\bin\Debug\net7.0\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_Service\obj\Debug\net7.0\IUNRWA_Service.csproj.AssemblyReference.cache
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_Service\obj\Debug\net7.0\IUNRWA_Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_Service\obj\Debug\net7.0\IUNRWA_Service.AssemblyInfoInputs.cache
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_Service\obj\Debug\net7.0\IUNRWA_Service.AssemblyInfo.cs
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_Service\obj\Debug\net7.0\IUNRWA_Service.csproj.CoreCompileInputs.cache
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_Service\obj\Debug\net7.0\IUNRWA_Service.csproj.CopyComplete
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_Service\obj\Debug\net7.0\IUNRWA_Service.dll
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_Service\obj\Debug\net7.0\refint\IUNRWA_Service.dll
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_Service\obj\Debug\net7.0\IUNRWA_Service.pdb
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_Service\obj\Debug\net7.0\ref\IUNRWA_Service.dll

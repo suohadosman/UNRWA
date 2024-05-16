@@ -1,0 +1,174 @@
+﻿@model DoctorViewDto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="~/css/HomeDoctor.css">
+    <link rel="stylesheet" href="~/css/all/Toaster.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Document</title>
+
+</head>
+    @section Scripts{
+            <partial name="_ValidationScriptsPartial">
+    }
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #1d86df; height: 3.5rem;"> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="font-size: 17px;"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNavDropdown" style="background-color: #1d86df;">
+            <ul class="navbar-nav" style="background-color: #1d86df;">
+                <li class="nav-item active">
+                    <a class="navbar-brand ">
+                        <img src="~/images/user-color-64.png" alt="logo" class="img1 img-fluid">
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" style="font-size: 17px;">@Model.User.UserName</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" style="font-size: 17px;">@Model.User.HealthCenter.Name Center</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" style="font-size: 17px;">@Model.User.Team.Name Team</a>
+
+                </li>
+                <li class="nav-item active">
+                    <a asp-action="Logout" asp-controller="Clerick" class="nav-link btn" id="logout-icon"
+                       style="font-size: 17px; border: solid 1px; width: 132px; padding: 6px;text-align: center;">
+                        Logout
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z" />
+                            <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
+                        </svg>
+                    </a>
+
+                </li>
+
+
+            </ul>
+        </div>
+        <div class="nav__icons">
+            <img src="~/images/unrwa-logo-0DB0E000FE-seeklogo.com.png" alt="logo" class=" img__1 img-fluid">
+        </div>
+
+
+    </nav>
+
+<body>
+
+    <div class="container ">
+        <h1 class="text_1">How are you @Model.User.UserName ?</h1>
+
+        <div class="row">
+
+            <div class="col-lg-6 col-md-3 col-ms-6">
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-ms-6">
+                <div class="service-time one" style="background:#2895f1; ">
+                    <h1 class="text_2">Next Appointment</h1>
+                    <button data-toggle="modal" data-target="#exampleModal_3" class="btn btn-light btn-radius button_2 btn-brd grd1 effect-1" id="next-appointment-btn"><i class='bx bx-right-arrow-alt' style="color:#2895f1 ; font-size: 30px; text-align: center;"></i></button>
+                </div>
+
+            </div>
+            <!--Next Appointment Modal -->
+            <div class="modal fade" id="exampleModal_3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel" style="color: #1d86df;">Next Appointment</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: #1d86df;">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body" style="color: #1d86df;">
+                                <label class="form-group">
+                                <span style="color: a#1d86df; font-weight: 500;  color:#1d86df;">Patient Name:</span>
+                                <span type="text" class="form-control" style="background-color: #fff; color: #2895f1;"> @Model.DoctorReservations!.FirstOrDefault().PersonName </span>
+                                <span style="color: a#1d86df; font-weight: 500;  color: #1d86df;">time:</span>
+                                        <span type="time" class="form-control" style="background-color: #fff;color: #2895f1">
+                                            @if (!string.IsNullOrEmpty(Model.DoctorReservations.FirstOrDefault().PersonName))
+                                    {
+                                        @Model.DoctorReservations.FirstOrDefault()!.Date.ToShortTimeString()
+                                    }
+                                </span>
+
+                            </label>
+                        </div>
+                        <div class="modal-footer">
+
+                            <button type="button" class="btn btn-secondary button_1 btn-brd grd1 effect-1" data-dismiss="modal">OK</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-ms-6">
+                <div class="service-time one" style="background:#0071d1; margin-top: 20px;">
+                    <h1 class="text_2">Queue</h1>
+                    <a asp-action="Queue" asp-controller="Doctor"  class="btn btn-light btn-radius button_2 btn-brd grd1 effect-1" ><i class='bx bx-right-arrow-alt' style="color:#0071d1 ; font-size: 30px; text-align: center;"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-ms-6">
+                <div class="service-time one" style="background:#0060b1; margin-top:40px;">
+                    <h1 class="text_2">Browse All Next Reservations</h1>
+                    <a asp-action="AllNextReservations" asp-controller="Doctor" class="btn btn-light btn-radius button_2 btn-brd grd1 effect-1"><i class='bx bx-right-arrow-alt' style="color:#2895f1 ; font-size: 30px; text-align: center;"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 col-md-3 col-ms-6">
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-ms-6">
+                <div class="service-time one" style="background:#2895f1; ">
+
+                    <h1 class="text_2">Browse medicines</h1>
+                    <a asp-action="Medicines" asp-controller="Doctor" class="btn btn-light btn-radius button_2 btn-brd grd1 effect-1"><i class='bx bx-right-arrow-alt' style="color:#2895f1 ; font-size: 30px; text-align: center;"></i></a>
+                </div>
+
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-ms-6">
+                <div class="service-time one" style="background:#0071d1; margin-top: 20px;">
+                    <h1 class="text_2">Browse Analytics</h1>
+                    <a asp-action="LabTests" asp-controller="Doctor" class="btn btn-light btn-radius button_2 btn-brd grd1 effect-1"><i class='bx bx-right-arrow-alt' style="color:#0071d1 ; font-size: 30px; text-align: center;"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-ms-6">
+                <div class="service-time one" style="background:#0060b1; margin-top:40px;">
+                    <h1 class="text_2">Browse All Preview</h1>
+                    <a asp-action="AllPreview" asp-controller="Doctor" class="btn btn-light btn-radius button_2 btn-brd grd1 effect-1"><i class='bx bx-right-arrow-alt' style="color:#2895f1 ; font-size: 30px; text-align: center;"></i></a>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="~/js/Doctor/nextAppointment.js"></script>
+
+</body>
+</html>

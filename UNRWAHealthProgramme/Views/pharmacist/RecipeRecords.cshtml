@@ -1,0 +1,191 @@
+﻿@model PharmacistViewDto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/pharmacist/recipeRecords3.css">
+    <link rel="stylesheet" href="~/css/All/Toaster.css">
+    <script src="~/js/pharmacist/recipeRecords.js"></script>
+    <link rel="stylesheet" href="~/css/All/Toaster.css">
+    <!--Links For Models-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    <!--Table Links-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css" rel="stylesheet" id="bootstrap-css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.csshttps://cdn.datatables.net/1.13.5/css/dataTables.bootstrap4.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdn.datatables.net/1.13.5/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.5/js/dataTables.bootstrap4.min.js"></script>
+    <!--Icon Link-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Recipe Records</title>
+
+</head>
+@section Scripts{
+        <partial name="_ValidationScriptsPartial">
+        }
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #1d86df; height: 3.5rem; z-index:0;">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" style="font-size: 17px;"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavDropdown" style="background-color: #1d86df;">
+                <ul class="navbar-nav" style="background-color: #1d86df;">
+                    <li class="nav-item active">
+                        <a class="navbar-brand ">
+                            <img src="~/images/user-color-64.png" alt="logo" class="img1 img-fluid">
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" style="font-size: 17px;">@Model.User.UserName</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" style="font-size: 17px;">@Model.User.HealthCenter.Name Center</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" style="font-size: 17px;">@Model.User.Team.Name Team</a>
+
+                    </li>
+                    <li class="nav-item active">
+                    <a asp-action="Index" asp-controller="Pharmacist" class="nav-link btn" id="logout-icon"
+                           style="font-size: 17px; border: solid 1px; width: 132px; padding: 6px;text-align: center;">
+                            Back
+                        </a>
+
+                    </li>
+                    <li class="nav-item active">
+                        <a asp-action="Logout" asp-controller="Clerick" class="nav-link btn" id="logout-icon"
+                           style="font-size: 17px; border: solid 1px; width: 132px; padding: 6px;text-align: center;">
+                            Logout
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z" />
+                                <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
+                            </svg>
+                        </a>
+
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="nav__icons">
+                <img src="~/images/unrwa-logo-0DB0E000FE-seeklogo.com.png" alt="logo" class=" img__1 img-fluid">
+            </div>
+
+
+        </nav>
+
+        <body style=" padding: 16px 50px 50px 50px">
+            <div id="snackbar">Some text some message..</div>
+    @if (TempData["TakeMedicinesSuccess"] != null)
+    {
+                <script>
+                    var x = document.getElementById("snackbar");
+                    x.className = "show";
+                    x.innerText = "Taken Medicins successfully"
+                    setTimeout(function () { x.className = x.className.replace("show", ""); }, 3000);
+                </script>
+    }
+    @if (TempData["TakeMedicinesFaild"] != null)
+    {
+                <script>
+                    var x = document.getElementById("snackbar");
+                    x.className = "error";
+                    x.innerText = "Taken Medicins failed"
+                    setTimeout(function () { x.className = x.className.replace("error", ""); }, 3000);
+                </script>
+
+    }
+            <div class="text">
+                <h1>Recipe Recordes</h1>
+            </div>
+        <table id="example" class="table table-striped table-bordered">
+                <thead>
+            <tr>
+                    <th scope="col" style="color: #0071d1">Patient Name</th>
+                    <th scope="col" style="color: #0071d1">Recipe</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                int i = 1;
+            }
+           @foreach (var item in Model.RecipePersonsInfo)
+            {
+                if (i%2 != 0)
+                {
+                            <tr class="table-secondary">
+                                <td scope="row">@item.PersonName</td>
+                                <td scope="row"><a id="personRecipes" data-scroll class="btn btn-light btn-radius button_1 btn-brd grd1 effect-1" data-toggle="modal" data-target="#exampleModal_@item.PersonId">Doctor Recipe &nbsp;&nbsp;<i class='bx bxs-notepad' style='color:#ffffff;font-size: 20px;'></i></a></td>
+                    </tr>
+                }
+                else
+                {
+                            <tr>
+                                <td>@item.PersonName</td>
+                                <td><a id="personRecipes" data-scroll class="btn btn-light btn-radius button_1 btn-brd grd1 effect-1" data-toggle="modal" data-target="#exampleModal_@item.PersonId">Doctor Recipe &nbsp;&nbsp;<i class='bx bxs-notepad' style='color:#ffffff;font-size: 20px;'></i></a></td>
+                    </tr>
+                }
+                i++;     
+            }
+        </tbody>
+    </table>
+    <!-- Modal -->
+ @foreach (var item in Model.RecipePersonsInfo)
+    {
+                <div class="modal fade" id="exampleModal_@item.PersonId" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel" style="color: #1d86df;">Doctor Recipe</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: #1d86df;">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body" style="color: #1d86df;">
+                                <table style="width: 100%;">
+                                    <tr>
+                                        <th>Medicine Name </th>
+                                        <th>Amount</th>
+                                    </tr>
+                                   @foreach (var item1 in Model.UnTakenPreviewMedicines)
+                            {
+                                    @if(item1.PersonId == item.PersonId)
+                                    {
+                                            <tr>
+                                                <td>@item1.Medicine.Name</td>
+                                                <td>@item1.Amount</td>
+                                            </tr>
+                                    }
+                            }
+                                </table>
+                            </div>
+                            <div class="modal-footer">
+
+                                <a id="takeMedicines" asp-action="TakePreviewMedicines" asp-controller="Pharmacist" asp-route-personId="@item.PersonId" class="btn btn-primary button_2 btn-brd grd1 effect-1">Done</a>
+                                <button type="button" class="btn btn-secondary button_2 btn-brd grd1 effect-1" data-dismiss="modal">Cancel</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+    }
+    </body>
+</html>
+<style>
+    #example_wrapper {
+        box-shadow: 0em 0em 20px 0px #9e9e9e;
+        padding: 27px;
+        padding-top: 0mm !important;
+    }
+</style>
+<script src="~/js/QUEUE.js"></script>

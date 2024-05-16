@@ -1,0 +1,153 @@
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\UNRWAHealthProgramme.csproj.AssemblyReference.cache
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\UNRWAHealthProgramme.GeneratedMSBuildEditorConfig.editorconfig
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\UNRWAHealthProgramme.AssemblyInfoInputs.cache
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\UNRWAHealthProgramme.AssemblyInfo.cs
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\UNRWAHealthProgramme.csproj.CoreCompileInputs.cache
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\UNRWAHealthProgramme.MvcApplicationPartsAssemblyInfo.cache
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\UNRWAHealthProgramme.RazorAssemblyInfo.cache
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\UNRWAHealthProgramme.RazorAssemblyInfo.cs
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\appsettings.Development.json
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\appsettings.json
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\UNRWAHealthProgramme.staticwebassets.runtime.json
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\UNRWAHealthProgramme.exe
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\UNRWAHealthProgramme.deps.json
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\UNRWAHealthProgramme.runtimeconfig.json
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\UNRWAHealthProgramme.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\UNRWAHealthProgramme.pdb
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Humanizer.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\System.Drawing.Common.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\System.Runtime.Caching.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\System.Windows.Extensions.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\staticwebassets.build.json
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\staticwebassets.development.json
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\scopedcss\bundle\UNRWAHealthProgramme.styles.css
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\scopedcss\projectbundle\UNRWAHealthProgramme.bundle.scp.css
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\UNRWAHealthProgramme.csproj.CopyComplete
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\UNRWAHealthProgramme.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\refint\UNRWAHealthProgramme.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\UNRWAHealthProgramme.pdb
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\UNRWAHealthProgramme.genruntimeconfig.cache
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\ref\UNRWAHealthProgramme.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\BackEnd.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\BackEnd.pdb
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Dto.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\IRepo.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Repo.dll
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\IRepo.pdb
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Repo.pdb
+E:\MyWorks\Back-End\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Dto.pdb
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\appsettings.json
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\UNRWAHealthProgramme.exe
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\UNRWAHealthProgramme.staticwebassets.runtime.json
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\UNRWAHealthProgramme.deps.json
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\UNRWAHealthProgramme.runtimeconfig.json
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\UNRWAHealthProgramme.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\UNRWAHealthProgramme.pdb
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Humanizer.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\BackEnd.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Dto.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\IRepo.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Repo.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\BackEnd.pdb
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\IRepo.pdb
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Repo.pdb
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\bin\Debug\net6.0\Dto.pdb
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\UNRWAHealthProgramme.csproj.AssemblyReference.cache
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\UNRWAHealthProgramme.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\UNRWAHealthProgramme.AssemblyInfoInputs.cache
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\UNRWAHealthProgramme.AssemblyInfo.cs
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\UNRWAHealthProgramme.csproj.CoreCompileInputs.cache
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\UNRWAHealthProgramme.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\UNRWAHealthProgramme.RazorAssemblyInfo.cache
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\UNRWAHealthProgramme.RazorAssemblyInfo.cs
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\scopedcss\bundle\UNRWAHealthProgramme.styles.css
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\scopedcss\projectbundle\UNRWAHealthProgramme.bundle.scp.css
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\UNRWAHealthProgramme.csproj.CopyComplete
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\UNRWAHealthProgramme.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\refint\UNRWAHealthProgramme.dll
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\UNRWAHealthProgramme.pdb
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\UNRWAHealthProgramme.genruntimeconfig.cache
+C:\Users\العبه جي\Desktop\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\ref\UNRWAHealthProgramme.dll
+C:\Users\العبه جي\Desktop\GraduitProject\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\UNRWAHealthProgramme.dll
+C:\Users\العبه جي\Desktop\GraduitProject\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\refint\UNRWAHealthProgramme.dll
+C:\Users\العبه جي\Desktop\GraduitProject\UNRWAProgrmme\UNRWAHealthProgramme\obj\Debug\net6.0\UNRWAHealthProgramme.pdb

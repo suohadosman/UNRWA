@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IUNRWA_Model\IUNRWA_Model.csproj" />
+    <ProjectReference Include="..\IUNRWA_ShareKernal\IUNRWA_ShareKernal.csproj" />
+  </ItemGroup>
+
+</Project>

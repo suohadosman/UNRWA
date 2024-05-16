@@ -1,0 +1,240 @@
+﻿@model ClerickViewsDto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/naming2.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/All/Toaster.css">
+    <title>naming</title>
+</head>
+<body style="font-family: ui-monospace;">
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #1d86df; height: 3.5rem; z-index:0 !important">
+      
+        <div class="collapse navbar-collapse " id="navbarNavDropdown" style="background-color: #1d86df;">
+            <ul class="navbar-nav" style="background-color: #1d86df;">
+                <li class="nav-item active">
+                    <a class="navbar-brand ">
+                        <img src="~/images/user-color-64.png" alt="logo" class="img1 img-fluid">
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" style="font-size: 17px;">@Model.User.UserName</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" style="font-size: 17px;">@Model.User.HealthCenter.Name Center</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" style="font-size: 17px;">@Model.User.Team.Name Team</a>
+
+                </li>
+                <li class="nav-item active">
+                    <a asp-action="Logout" asp-controller="Clerick" class="nav-link btn" id="logout-icon"
+                       style="font-size: 19px; border: solid 1px; width: 132px; padding: 6px;text-align: center;">
+                        Logout
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z" />
+                            <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
+                        </svg>
+                    </a>
+
+                </li>
+
+            </ul>
+        </div>
+        <div class="nav__icons">
+            <img src="~/images/unrwa-logo-0DB0E000FE-seeklogo.com.png" alt="logo" class=" img__1 img-fluid">
+        </div>
+
+
+    </nav>
+
+    @section Scripts{
+            <partial name="_ValidationScriptsPartial">
+        }
+    <!--Notifications-->
+      <div id="snackbar">Some text some message..</div>
+    @if (TempData["EditIndividualSuccess"] != null)
+    {
+        <script>
+            var x = document.getElementById("snackbar");
+            x.className = "show";
+            x.innerText = "Edit successfully"
+            setTimeout(function () { x.className = x.className.replace("show", ""); }, 3000);
+        </script>
+    }
+    @if (TempData["EditIndividualFaild"] != null)
+    {
+       <script>  var x = document.getElementById("snackbar");
+                x.className = "error";
+                x.innerText = "Edit failed"
+                setTimeout(function () { x.className = x.className.replace("error", ""); }, 3000);
+        </script>
+
+    }
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-ms-12">
+
+                <h1 class="form-title">Naming</h1>
+
+
+                <form method="post">
+
+
+                    <div class="main-user-info">
+
+
+                        <div class="user-input-box">
+
+
+                            <label for="fullName">Full Name</label>
+                            <input type="text" readonly asp-for="PersonToUpdateDto.FirstName" />
+
+
+                        </div>
+
+
+                        <div class="user-input-box">
+
+
+                            <label for="fullName">Naming : @Model.PersonToUpdateDto.ArabicName</label>
+
+                            <!--save individuaId-->
+                            <input type="hidden" asp-for="PersonToUpdateFormDto.Id" value="@Model.PersonToUpdateDto.Id" />
+
+                            <input type="text" style="text-align: right;" id="fullName" asp-for="PersonToUpdateFormDto.ArabicName" value=" " />
+
+
+                        </div>
+
+
+                        <div class="user-input-box">
+
+
+                            <label for="">Phone Number : @Model.PersonToUpdateDto.PhoneNumber</label>
+
+
+                            <input type="text" placeholder="Enter Phone Number" asp-for="PersonToUpdateFormDto.PhoneNumber" />
+
+
+                        </div>
+
+                         <div class="user-input-box">
+
+                            <!--To update-->
+
+                            <label>Study level : @Model.PersonToUpdateDto.StudyLevel</label>
+
+                            <select asp-for="PersonToUpdateFormDto.StudyLevelId" asp-items="@(new SelectList(@Model.studyLevels,"Id","Level"))"
+                                    class="form-select" aria-label="Default select example" style="width: 95%;height: 40px;">
+                                <option selected value="@Model.PersonToUpdateDto.StudyLevelId"></option>
+
+                            </select>
+                        </div>
+
+
+                        <div class="user-input-box">
+
+                            <!--To update-->
+                            <label>RelationShip : @Model.PersonToUpdateDto.RelationShip</label>
+
+
+                            <select asp-for="PersonToUpdateFormDto.RelationShipId" asp-items="@(new SelectList(@Model.Relationships,"Id","Name"))"
+                                    class="form-select" aria-label="Default select example" style="width: 95%; height: 40px;">
+                                <option selected value="@Model.PersonToUpdateDto.RelationShipId"></option>
+
+                            </select>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-ms-6">
+                            <div class="gender-details-box">
+
+
+                                <span class="gender-title">Gender</span>
+
+
+                                <div class="gender-category">
+
+                                    @if (@Model.PersonToUpdateDto.Gender == false)
+                                    {
+                                        <input type="radio" asp-for="PersonToUpdateFormDto.Gender" value="false" checked>
+                                        <label asp-for="PersonToUpdateDto.Gender">Male</label>
+
+                                        <input type="radio" asp-for="PersonToUpdateFormDto.Gender" value="true">
+                                        <label asp-for="PersonToUpdateDto.Gender">Famale</label>
+                                    }
+                                    else
+                                    {
+                                        <input type="radio" asp-for="PersonToUpdateFormDto.Gender" value="false">
+                                        <label asp-for="PersonToUpdateDto.Gender">Male</label>
+
+                                        <input type="radio" asp-for="PersonToUpdateFormDto.Gender" value="true" checked>
+                                        <label asp-for="PersonToUpdateDto.Gender">Famale</label>
+                                    }
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-ms-6">
+                            <div class="gender-details-box">
+
+
+                                <span class="gender-title">Marital status</span>
+
+
+                                <div class="gender-category">
+
+
+                                    @if (@Model.PersonToUpdateDto.MaritalStatus == false) // false for single
+                                    {
+                                        <input type="radio" asp-for="PersonToUpdateFormDto.MaritalStatus" value="false">
+                                        <label asp-for="PersonToUpdateDto.MaritalStatus">Single</label>
+
+                                        <input type="radio" asp-for="PersonToUpdateFormDto.MaritalStatus" value="true">
+                                        <label asp-for="PersonToUpdateDto.MaritalStatus">Married</label>
+                                    }
+                                    else
+                                    {
+                                        <input type="radio" asp-for="PersonToUpdateFormDto.MaritalStatus" value="false">
+                                        <label asp-for="PersonToUpdateDto.MaritalStatus">Single</label>
+
+                                        <input type="radio" asp-for="PersonToUpdateFormDto.MaritalStatus" value="true" checked>
+                                        <label asp-for="PersonToUpdateDto.MaritalStatus">Married</label>
+                                    }
+
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="form-submit-btn">
+
+
+                        <button type="submit" asp-action="Naming" asp-controller="Clerick">Save</button>
+                                <a asp-action="Home" asp-controller="Clerick" class="">Back</a>
+
+                                
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+  </body>
+</html>

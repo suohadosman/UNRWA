@@ -1,0 +1,119 @@
+﻿@model PatientViewDto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/css/NCDNurse/Complication.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+          rel="stylesheet" />
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous" />
+    <link rel="stylesheet" href="~/css/All/Toaster.css">
+    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+          rel="stylesheet" />
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous" />
+    <link rel="stylesheet" href="~/css/NCDNurse/NCDPatientInfo2.css" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #1d86df; height: 3.5rem;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="font-size: 17px;"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNavDropdown" style="background-color: #1d86df;">
+            <ul class="navbar-nav" style="background-color: #1d86df; margin-left:114px">
+
+                <li class="nav-item active">
+                    <a asp-action="NCDPatientInfo" asp-controller="Patient" asp-route-personId="@Model.PersonIdToSearch" class="nav-link btn" id="logout-icon"
+                       style="font-size: 17px; border: solid 1px; width: 132px; padding: 6px;text-align: center;">
+                        Back
+                    </a>
+
+                </li>
+
+
+            </ul>
+        </div>
+        <div class="nav__icons">
+            <img src="~/images/unrwa-logo-0DB0E000FE-seeklogo.com.png" alt="logo" class=" img__1 img-fluid">
+        </div>
+
+
+    </nav>
+    
+            <div class="container">
+                <h1 style="text-align: center; color: #1d86df; margin-top: 70px">
+                    Complication
+                </h1>
+                    <table id="example"
+                           class="table table-bordered"
+                           style="width: 100% !important; margin-top: 50px">
+                        <thead>
+                            <tr>
+                    <th style="width: 30%; color: #1d86df;">Late Compilatiion Name</th>
+                    <th style="width: 30%; color: #1d86df;">Date</th>
+                    <th style="width: 30%; color: #1d86df;">Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                    @foreach (var item in Model.PersonLateComplications)
+                    {
+                                <tr>
+                                    <td>@item.LateComplicationName</td>
+                                    <td>@item.FollowUpVisitDate</td>
+                            @if (item.Status)
+                            {
+                                        <td>Advanced</td>
+                            }
+                            else
+                            {
+                                        <td>Late</td>
+                            }
+                                </tr>
+                    }
+                        </tbody>
+                    </table>
+                </div>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                    crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+                    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                    crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+                    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                    crossorigin="anonymous"></script>
+    <!-- ALL JS FILES -->
+    <script src="~/js/jquery.min.js"></script>
+    <script src="~/js/popper.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="~/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/js/jquery.pogo-slider.min.js"></script>
+    <script src="~/js/slider-index.js"></script>
+    <script src="~/js/smoothscroll.js"></script>
+    <script src="~//TweenMax.min.js"></script>
+    <script src="~/js/main.js"></script>
+    <script src="~/js/owl.carousel.min.js"></script>
+    <script src="~/js/form-validator.min.js"></script>
+    <script src="~/js/contact-form-script.js"></script>
+    <script src="~/js/isotope.min.js"></script>
+    <script src="~/js/images-loded.min.js"></script>
+    <script src="~/js/custom.js"></script>
+    <!-- all js files -->
+    <script src="~/js/all.js"></script>
+    <!-- all plugins -->
+    <script src="~/js/custom.js"></script>
+    <script src="~/js/Home/loginValidation2.js"></script>
+</body>
+</html>

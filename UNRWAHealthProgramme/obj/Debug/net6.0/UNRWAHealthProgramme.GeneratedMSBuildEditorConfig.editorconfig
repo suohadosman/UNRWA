@@ -1,0 +1,113 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = UNRWAHealthProgramme
+build_property.RootNamespace = UNRWAHealthProgramme
+build_property.ProjectDir = C:\Users\العبه جي\Desktop\GraduitProject\UNRWAProgrmme\UNRWAHealthProgramme\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\العبه جي\Desktop\GraduitProject\UNRWAProgrmme\UNRWAHealthProgramme
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/العبه جي/Desktop/GraduitProject/UNRWAProgrmme/UNRWAHealthProgramme/Views/Accounts/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/العبه جي/Desktop/GraduitProject/UNRWAProgrmme/UNRWAHealthProgramme/Views/Clerck/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xlcmNrXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/العبه جي/Desktop/GraduitProject/UNRWAProgrmme/UNRWAHealthProgramme/Views/Clerck/ManageAppointment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xlcmNrXE1hbmFnZUFwcG9pbnRtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/العبه جي/Desktop/GraduitProject/UNRWAProgrmme/UNRWAHealthProgramme/Views/Clerck/Naming.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xlcmNrXE5hbWluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/العبه جي/Desktop/GraduitProject/UNRWAProgrmme/UNRWAHealthProgramme/Views/Doctor/AllIndividualMeasurementResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXEFsbEluZGl2aWR1YWxNZWFzdXJlbWVudFJlc3VsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/العبه جي/Desktop/GraduitProject/UNRWAProgrmme/UNRWAHealthProgramme/Views/Doctor/AllIndividualMedicin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXEFsbEluZGl2aWR1YWxNZWRpY2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/العبه جي/Desktop/GraduitProject/UNRWAProgrmme/UNRWAHealthProgramme/Views/Doctor/AllNextEmployeeAppointment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXEFsbE5leHRFbXBsb3llZUFwcG9pbnRtZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/العبه جي/Desktop/GraduitProject/UNRWAProgrmme/UNRWAHealthProgramme/Views/Doctor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/العبه جي/Desktop/GraduitProject/UNRWAProgrmme/UNRWAHealthProgramme/Views/Doctor/IndividiualLabTest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXEluZGl2aWRpdWFsTGFiVGVzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/العبه جي/Desktop/GraduitProject/UNRWAProgrmme/UNRWAHealthProgramme/Views/Doctor/LabTest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXExhYlRlc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/العبه جي/Desktop/GraduitProject/UNRWAProgrmme/UNRWAHealthProgramme/Views/Doctor/medicin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXG1lZGljaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/العبه جي/Desktop/GraduitProject/UNRWAProgrmme/UNRWAHealthProgramme/Views/Doctor/PatienInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFBhdGllbkluZm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/العبه جي/Desktop/GraduitProject/UNRWAProgrmme/UNRWAHealthProgramme/Views/Doctor/Queue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFF1ZXVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/العبه جي/Desktop/GraduitProject/UNRWAProgrmme/UNRWAHealthProgramme/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/العبه جي/Desktop/GraduitProject/UNRWAProgrmme/UNRWAHealthProgramme/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/العبه جي/Desktop/GraduitProject/UNRWAProgrmme/UNRWAHealthProgramme/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/العبه جي/Desktop/GraduitProject/UNRWAProgrmme/UNRWAHealthProgramme/Views/Shared/_Notification.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/العبه جي/Desktop/GraduitProject/UNRWAProgrmme/UNRWAHealthProgramme/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/العبه جي/Desktop/GraduitProject/UNRWAProgrmme/UNRWAHealthProgramme/Views/UsersManager/AllUsers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNNYW5hZ2VyXEFsbFVzZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/العبه جي/Desktop/GraduitProject/UNRWAProgrmme/UNRWAHealthProgramme/Views/UsersManager/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNNYW5hZ2VyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/العبه جي/Desktop/GraduitProject/UNRWAProgrmme/UNRWAHealthProgramme/Views/UsersManager/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNNYW5hZ2VyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/العبه جي/Desktop/GraduitProject/UNRWAProgrmme/UNRWAHealthProgramme/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/العبه جي/Desktop/GraduitProject/UNRWAProgrmme/UNRWAHealthProgramme/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/العبه جي/Desktop/GraduitProject/UNRWAProgrmme/UNRWAHealthProgramme/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-8dc1lrw6tb

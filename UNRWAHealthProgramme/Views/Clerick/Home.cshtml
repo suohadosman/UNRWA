@@ -1,0 +1,171 @@
+﻿@model ClerickViewsDto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/searchStyle.css">
+    <link rel="stylesheet" href="~/css/All/Toaster.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   
+    <title>Search</title>
+</head>
+<body style="font-family: ui-monospace;">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #1d86df; height: 3.5rem;">
+        <div class="collapse navbar-collapse " id="navbarNavDropdown" style="background-color: #1d86df;">
+            <ul class="navbar-nav" style="background-color: #1d86df;">
+                <li class="nav-item active">
+                    <a class="navbar-brand ">
+                        <img src="~/images/user-color-64.png" alt="logo" class="img1 img-fluid">
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" style="font-size: 17px;">@Model.User.UserName</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" style="font-size: 17px;">@Model.User.HealthCenter.Name Center</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" style="font-size: 17px;">@Model.User.Team.Name Team</a>
+
+                </li>
+                <li class="nav-item active">
+                    <a asp-action="Logout" asp-controller="Clerick" class="nav-link btn" id="logout-icon"
+                    style="font-size: 19px; border: solid 1px; width: 132px; padding: 6px;text-align: center;">
+                    Logout
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z" />
+                            <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
+                        </svg>
+                    </a>
+                  
+                </li>
+                
+            </ul>
+        </div>
+        <div class="nav__icons">
+            <img src="~/images/unrwa-logo-0DB0E000FE-seeklogo.com.png" alt="logo" class=" img__1 img-fluid">
+        </div>
+
+
+    </nav>
+    @section Scripts{
+        <partial name="_ValidationScriptsPartial">
+            }
+            <form class="card" method="post" style="font-family: ui-monospace;">
+        <div class="container" >
+            <div class="row">
+
+                <div class="col-md-12 col-lg-6 col-ms-12">
+                    <div class="CardInner" >
+                                <label style="font-family: ui-monospace;    font-size: 23px;">Person ID:</label>
+                        <div class="box">
+
+                            <div  class="InputContainer">
+                                <input placeholder="search" asp-for="@Model.PersonId" />
+                            </div>
+                            <button type="submit" class="btn btn-primary Icon" asp-action="SearchByPersonId" asp-controller="Clerick"><i class='bx bx-search-alt-2' style='color:#1d86df ;font-size: 30px;'></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6 col-ms-12">
+                    <div class="CardInner">
+                                <label style="font-family: ui-monospace;font-size: 23px;">Family Card: </label>
+                        <div class="box">
+
+                            <div class="InputContainer">
+                              <input placeholder="search" asp-for="@Model.FamilyCard" /> </div>
+                            <button type="submit" class="btn btn-primary Icon" asp-action="SearchByFamilyCard" asp-controller="Clerick"><i class='bx bx-search-alt-2' style='color:#1d86df ;font-size: 30px;'></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-lg-6 col-ms-12">
+                   
+                    </div>
+                        <div class="col-md-12 col-lg-6 col-ms-12">
+                            <div class="CardInner">
+                                <label style="font-family: ui-monospace; font-size: 23px;">NCD: </label>
+                                <div class="box">
+
+                                    <div class="InputContainer">
+                                        <input placeholder="search" asp-for="@Model.NCDNumber" />
+                                    </div>
+                                    <button type="submit" class="btn btn-primary Icon" asp-action="SearchByNCD" asp-controller="Clerick"><i class='bx bx-search-alt-2' style='color:#1d86df ;font-size: 30px;'></i></button>
+                                </div>
+                            </div>
+
+                        </div>
+                </div>
+              
+            </div>
+    </form>
+    <div>
+                <h1 class="header" style="font-family: ui-monospace;     text-align: center;">
+                  Result:
+                </h1>
+    </div>
+    <div class="table_box ">
+            <table id="example" class="table table-striped table-bordered">
+                    <thead style="font-family: ui-monospace;">
+                     <tr style="font-family: ui-monospace;">
+                    <th style="width: 10%;" class="head">Family Card</th>
+                    <th style="width: 10%;" class="head">Id</th>
+                    <th style="width: 10%;" class="head">Name</th>
+                    <th style="width: 10%;" class="head">Gender</th>
+                    <th style="width: 10%;" class="head">Relationship</th>
+                    <th style="width: 10%;" class="head">NCD Card</th>
+                    <th style="width: 50%;" class="head">Action</th>
+                </tr>
+            </thead>
+                    <tbody style="font-family: ui-monospace;">
+
+                @foreach (var item in Model.FamilyCardObject.People)
+                {
+                  if(item is not null)
+                    {
+                                <tr>
+                                    <td>@item.FamilyCard</td>
+                                    <td>@item.Id</td>
+                                    <td>@item.FirstName @item.LastName</td>
+                            @if (@item.Gender == true)
+                            {
+                                        <td>Mail</td>
+                            }
+                            else
+                            {
+                                        <td>Femail</td>
+                            }
+                                    <td>@item.RelationShip</td>
+                                    <td>@item.NCD</td>
+                                    <td>
+                                        <a data-scroll class="btn btn-light btn-radius button_1 btn-brd grd1 effect-1" asp-action="Naming" asp-controller="Clerick" asp-route-personId="@item.Id">Naming<i class='bx bx-edit-alt'></i></a>
+                                        <a type="submit" data-scroll class="btn btn-light btn-radius button_1 btn-brd grd1 effect-1" asp-action="Reservations" asp-controller="Clerick" asp-route-personId="@item.Id">Reservations <i class='bx bx-calendar-week'></i></a>
+                                    </td>
+
+                        </tr>
+                    }
+                    else
+                    {
+                        <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+
+    </body>
+</html>

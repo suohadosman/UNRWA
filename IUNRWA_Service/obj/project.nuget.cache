@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "6a1TEauqXagAI5QLIfQUK4K6phn1wkYsvrKbV6yXiAilCwhfG8sp7NXVJrkjDYB0TrOC2n2NAu8OBkK8AqkUWw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\IUNRWA_Service\\IUNRWA_Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rama\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.2\\microsoft.aspnetcore.cryptography.internal.7.0.2.nupkg.sha512",
+    "C:\\Users\\rama\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.2\\microsoft.aspnetcore.cryptography.keyderivation.7.0.2.nupkg.sha512",
+    "C:\\Users\\rama\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\7.0.2\\microsoft.aspnetcore.identity.entityframeworkcore.7.0.2.nupkg.sha512",
+    "C:\\Users\\rama\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.2\\microsoft.entityframeworkcore.7.0.2.nupkg.sha512",
+    "C:\\Users\\rama\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.2\\microsoft.entityframeworkcore.abstractions.7.0.2.nupkg.sha512",
+    "C:\\Users\\rama\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.2\\microsoft.entityframeworkcore.analyzers.7.0.2.nupkg.sha512",
+    "C:\\Users\\rama\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.2\\microsoft.entityframeworkcore.relational.7.0.2.nupkg.sha512",
+    "C:\\Users\\rama\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\rama\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "C:\\Users\\rama\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\rama\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\rama\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\rama\\.nuget\\packages\\microsoft.extensions.identity.core\\7.0.2\\microsoft.extensions.identity.core.7.0.2.nupkg.sha512",
+    "C:\\Users\\rama\\.nuget\\packages\\microsoft.extensions.identity.stores\\7.0.2\\microsoft.extensions.identity.stores.7.0.2.nupkg.sha512",
+    "C:\\Users\\rama\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "C:\\Users\\rama\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\rama\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "C:\\Users\\rama\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\rama\\.nuget\\packages\\mysqlconnector\\2.2.5\\mysqlconnector.2.2.5.nupkg.sha512",
+    "C:\\Users\\rama\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\7.0.0\\pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

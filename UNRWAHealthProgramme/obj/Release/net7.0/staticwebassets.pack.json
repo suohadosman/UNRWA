@@ -1,0 +1,1281 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\All\\TabelStyle.css",
+      "PackagePath": "staticwebassets\\css\\All\\TabelStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\All\\Toaster.css",
+      "PackagePath": "staticwebassets\\css\\All\\Toaster.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\HomeDoctor.css",
+      "PackagePath": "staticwebassets\\css\\HomeDoctor.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\Home\\inputValidationStyle.css",
+      "PackagePath": "staticwebassets\\css\\Home\\inputValidationStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\MeasurementNurse\\Index2.css",
+      "PackagePath": "staticwebassets\\css\\MeasurementNurse\\Index2.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\MeasurementNurse\\Queue2.css",
+      "PackagePath": "staticwebassets\\css\\MeasurementNurse\\Queue2.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\NCDNurse\\AnnualLabTest2.css",
+      "PackagePath": "staticwebassets\\css\\NCDNurse\\AnnualLabTest2.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\NCDNurse\\Complication2.css",
+      "PackagePath": "staticwebassets\\css\\NCDNurse\\Complication2.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\NCDNurse\\CreateNCDCard.css",
+      "PackagePath": "staticwebassets\\css\\NCDNurse\\CreateNCDCard.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\NCDNurse\\Index.css",
+      "PackagePath": "staticwebassets\\css\\NCDNurse\\Index.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\NCDNurse\\Management.css",
+      "PackagePath": "staticwebassets\\css\\NCDNurse\\Management.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\NCDNurse\\NCDPatientInfo2.css",
+      "PackagePath": "staticwebassets\\css\\NCDNurse\\NCDPatientInfo2.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\Patient\\Dates.css",
+      "PackagePath": "staticwebassets\\css\\Patient\\Dates.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\Patient\\home .css",
+      "PackagePath": "staticwebassets\\css\\Patient\\home .css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\Patient\\medicine.css",
+      "PackagePath": "staticwebassets\\css\\Patient\\medicine.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\Patient\\welcome.css",
+      "PackagePath": "staticwebassets\\css\\Patient\\welcome.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\Queue.css",
+      "PackagePath": "staticwebassets\\css\\Queue.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\Tester\\InsertResult.css",
+      "PackagePath": "staticwebassets\\css\\Tester\\InsertResult.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\Tester\\TestManagement.css",
+      "PackagePath": "staticwebassets\\css\\Tester\\TestManagement.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\Tester\\TestManagement2.css",
+      "PackagePath": "staticwebassets\\css\\Tester\\TestManagement2.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\Tester\\TestManagement3.css",
+      "PackagePath": "staticwebassets\\css\\Tester\\TestManagement3.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\Tester\\personLabTestsInDate.css",
+      "PackagePath": "staticwebassets\\css\\Tester\\personLabTestsInDate.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\Tester\\style.css",
+      "PackagePath": "staticwebassets\\css\\Tester\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\Tester\\style2.css",
+      "PackagePath": "staticwebassets\\css\\Tester\\style2.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\Tester\\style3.css",
+      "PackagePath": "staticwebassets\\css\\Tester\\style3.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\browse medicine.css",
+      "PackagePath": "staticwebassets\\css\\browse medicine.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\browse the analytics.css",
+      "PackagePath": "staticwebassets\\css\\browse the analytics.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\colors.css",
+      "PackagePath": "staticwebassets\\css\\colors.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\create a preview.css",
+      "PackagePath": "staticwebassets\\css\\create a preview.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\custom.css",
+      "PackagePath": "staticwebassets\\css\\custom.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\css\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\mange appointment.css",
+      "PackagePath": "staticwebassets\\css\\mange appointment.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\naming.css",
+      "PackagePath": "staticwebassets\\css\\naming.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\naming2.css",
+      "PackagePath": "staticwebassets\\css\\naming2.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\patient record.css",
+      "PackagePath": "staticwebassets\\css\\patient record.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\patient.css",
+      "PackagePath": "staticwebassets\\css\\patient.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\patientNCDMedicine.css",
+      "PackagePath": "staticwebassets\\css\\patientNCDMedicine.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\pharmacist\\home_pharmacist.css",
+      "PackagePath": "staticwebassets\\css\\pharmacist\\home_pharmacist.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\pharmacist\\home_pharmacist2.css",
+      "PackagePath": "staticwebassets\\css\\pharmacist\\home_pharmacist2.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\pharmacist\\pharmacyRecords.css",
+      "PackagePath": "staticwebassets\\css\\pharmacist\\pharmacyRecords.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\pharmacist\\pharmacyRecords2.css",
+      "PackagePath": "staticwebassets\\css\\pharmacist\\pharmacyRecords2.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\pharmacist\\recipeRecords.css",
+      "PackagePath": "staticwebassets\\css\\pharmacist\\recipeRecords.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\pharmacist\\recipeRecords2.css",
+      "PackagePath": "staticwebassets\\css\\pharmacist\\recipeRecords2.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\pharmacist\\recipeRecords3.css",
+      "PackagePath": "staticwebassets\\css\\pharmacist\\recipeRecords3.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\prettyPhoto.css",
+      "PackagePath": "staticwebassets\\css\\prettyPhoto.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\searchStyle.css",
+      "PackagePath": "staticwebassets\\css\\searchStyle.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\stylemodel.css",
+      "PackagePath": "staticwebassets\\css\\stylemodel.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\css\\versions.css",
+      "PackagePath": "staticwebassets\\css\\versions.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\000a5b8c0d773b5cbd5b8a5b3c9dd49c.webp",
+      "PackagePath": "staticwebassets\\images\\000a5b8c0d773b5cbd5b8a5b3c9dd49c.webp"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\11-6xrrjhpy3h6u0aa8kos9sw7fdjinofxmclf4g3s2j2v.jpg",
+      "PackagePath": "staticwebassets\\images\\11-6xrrjhpy3h6u0aa8kos9sw7fdjinofxmclf4g3s2j2v.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\1584350380036.png",
+      "PackagePath": "staticwebassets\\images\\1584350380036.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\19_2017-636490298852202664-220.jpg",
+      "PackagePath": "staticwebassets\\images\\19_2017-636490298852202664-220.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\Doctors_For_Men-732x549-thumbnail-1-732x549.jpg",
+      "PackagePath": "staticwebassets\\images\\Doctors_For_Men-732x549-thumbnail-1-732x549.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\LogoutUserIcon.svg",
+      "PackagePath": "staticwebassets\\images\\LogoutUserIcon.svg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\Pharmacist\\images3.jpg",
+      "PackagePath": "staticwebassets\\images\\Pharmacist\\images3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\Tester\\photo_2023-04-29_20-55-20.jpg",
+      "PackagePath": "staticwebassets\\images\\Tester\\photo_2023-04-29_20-55-20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\Untitled.jpg",
+      "PackagePath": "staticwebassets\\images\\Untitled.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\about-img-01.jpg",
+      "PackagePath": "staticwebassets\\images\\about-img-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\about-img-02.jpg",
+      "PackagePath": "staticwebassets\\images\\about-img-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\about-img-03.jpg",
+      "PackagePath": "staticwebassets\\images\\about-img-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\about_03.jpg",
+      "PackagePath": "staticwebassets\\images\\about_03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\images\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\images\\apple-touch-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\bg-testimonial.png",
+      "PackagePath": "staticwebassets\\images\\bg-testimonial.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\bg.png",
+      "PackagePath": "staticwebassets\\images\\bg.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\blog-img-01.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-img-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\blog-img-02.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-img-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\blog-img-03.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-img-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\clinic.jpg",
+      "PackagePath": "staticwebassets\\images\\clinic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\clinic_01.jpg",
+      "PackagePath": "staticwebassets\\images\\clinic_01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\clinic_02.jpg",
+      "PackagePath": "staticwebassets\\images\\clinic_02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\clinic_03.jpg",
+      "PackagePath": "staticwebassets\\images\\clinic_03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\doctor-260nw-558136654.webp",
+      "PackagePath": "staticwebassets\\images\\doctor-260nw-558136654.webp"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\doctor_01.jpg",
+      "PackagePath": "staticwebassets\\images\\doctor_01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\doctor_02.jpg",
+      "PackagePath": "staticwebassets\\images\\doctor_02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\doctor_03.jpg",
+      "PackagePath": "staticwebassets\\images\\doctor_03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\doctors_411.jpg",
+      "PackagePath": "staticwebassets\\images\\doctors_411.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\images\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\footer-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\footer-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\gallery-01.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\gallery-02.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\gallery-03.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\gallery-04.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\gallery-05.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\gallery-06.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\gallery-07.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\gallery-08.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\img-1.jpg",
+      "PackagePath": "staticwebassets\\images\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\img-2.jpg",
+      "PackagePath": "staticwebassets\\images\\img-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\img-3.jpg",
+      "PackagePath": "staticwebassets\\images\\img-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\index.jpg",
+      "PackagePath": "staticwebassets\\images\\index.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\index.png",
+      "PackagePath": "staticwebassets\\images\\index.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\loaders\\heart-loading2.gif",
+      "PackagePath": "staticwebassets\\images\\loaders\\heart-loading2.gif"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\logoutUser.png",
+      "PackagePath": "staticwebassets\\images\\logoutUser.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\menu-arrow.png",
+      "PackagePath": "staticwebassets\\images\\menu-arrow.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\news_article_10911_15011_1414740475.jpg",
+      "PackagePath": "staticwebassets\\images\\news_article_10911_15011_1414740475.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\phone-icon.png",
+      "PackagePath": "staticwebassets\\images\\phone-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\photo_2023-06-22_04-10-30.jpg",
+      "PackagePath": "staticwebassets\\images\\photo_2023-06-22_04-10-30.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\pngtree-real-photos-of-hospital-medical-tools-image_1059403.jpg",
+      "PackagePath": "staticwebassets\\images\\pngtree-real-photos-of-hospital-medical-tools-image_1059403.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\pngtree-small-fresh-international-nurses-day-hd-background-image_212598.jpg",
+      "PackagePath": "staticwebassets\\images\\pngtree-small-fresh-international-nurses-day-hd-background-image_212598.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\preloader.gif",
+      "PackagePath": "staticwebassets\\images\\preloader.gif"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\dark_rounded\\btnNext.png",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\dark_rounded\\btnNext.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\dark_rounded\\btnPrevious.png",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\dark_rounded\\btnPrevious.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\dark_rounded\\contentPattern.png",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\dark_rounded\\contentPattern.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\dark_rounded\\default_thumbnail.gif",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\dark_rounded\\default_thumbnail.gif"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\dark_rounded\\loader.gif",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\dark_rounded\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\dark_rounded\\sprite.png",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\dark_rounded\\sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\dark_square\\btnNext.png",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\dark_square\\btnNext.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\dark_square\\btnPrevious.png",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\dark_square\\btnPrevious.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\dark_square\\contentPattern.png",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\dark_square\\contentPattern.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\dark_square\\default_thumbnail.gif",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\dark_square\\default_thumbnail.gif"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\dark_square\\loader.gif",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\dark_square\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\dark_square\\sprite.png",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\dark_square\\sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\default\\default_thumb.png",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\default\\default_thumb.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\default\\loader.gif",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\default\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\default\\sprite.png",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\default\\sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\default\\sprite_next.png",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\default\\sprite_next.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\default\\sprite_prev.png",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\default\\sprite_prev.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\default\\sprite_x.png",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\default\\sprite_x.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\default\\sprite_y.png",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\default\\sprite_y.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\facebook\\btnNext.png",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\facebook\\btnNext.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\facebook\\btnPrevious.png",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\facebook\\btnPrevious.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\facebook\\contentPatternBottom.png",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\facebook\\contentPatternBottom.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\facebook\\contentPatternLeft.png",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\facebook\\contentPatternLeft.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\facebook\\contentPatternRight.png",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\facebook\\contentPatternRight.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\facebook\\contentPatternTop.png",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\facebook\\contentPatternTop.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\facebook\\default_thumbnail.gif",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\facebook\\default_thumbnail.gif"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\facebook\\loader.gif",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\facebook\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\facebook\\sprite.png",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\facebook\\sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\light_rounded\\btnNext.png",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\light_rounded\\btnNext.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\light_rounded\\btnPrevious.png",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\light_rounded\\btnPrevious.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\light_rounded\\default_thumbnail.gif",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\light_rounded\\default_thumbnail.gif"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\light_rounded\\loader.gif",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\light_rounded\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\light_rounded\\sprite.png",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\light_rounded\\sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\light_square\\btnNext.png",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\light_square\\btnNext.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\light_square\\btnPrevious.png",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\light_square\\btnPrevious.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\light_square\\default_thumbnail.gif",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\light_square\\default_thumbnail.gif"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\light_square\\loader.gif",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\light_square\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\prettyphoto\\light_square\\sprite.png",
+      "PackagePath": "staticwebassets\\images\\prettyphoto\\light_square\\sprite.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\price.png",
+      "PackagePath": "staticwebassets\\images\\price.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\ptn-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\ptn-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\service-bg.png",
+      "PackagePath": "staticwebassets\\images\\service-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\service-icon1.png",
+      "PackagePath": "staticwebassets\\images\\service-icon1.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\service-icon2.png",
+      "PackagePath": "staticwebassets\\images\\service-icon2.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\service-icon3.png",
+      "PackagePath": "staticwebassets\\images\\service-icon3.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\service-icon4.png",
+      "PackagePath": "staticwebassets\\images\\service-icon4.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\service-icon5.png",
+      "PackagePath": "staticwebassets\\images\\service-icon5.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\service-icon6.png",
+      "PackagePath": "staticwebassets\\images\\service-icon6.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\slider-01.jpg",
+      "PackagePath": "staticwebassets\\images\\slider-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\slider-02.jpg",
+      "PackagePath": "staticwebassets\\images\\slider-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\slider-03.jpg",
+      "PackagePath": "staticwebassets\\images\\slider-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\slider-bg.png",
+      "PackagePath": "staticwebassets\\images\\slider-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\smiling-female-doctor-holding-medical-records-lab-coat-her-office-clipboard-looking-camera-56673035.jpg",
+      "PackagePath": "staticwebassets\\images\\smiling-female-doctor-holding-medical-records-lab-coat-her-office-clipboard-looking-camera-56673035.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\tag-line.png",
+      "PackagePath": "staticwebassets\\images\\tag-line.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\testi_01.png",
+      "PackagePath": "staticwebassets\\images\\testi_01.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\testi_02.png",
+      "PackagePath": "staticwebassets\\images\\testi_02.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\testi_03.png",
+      "PackagePath": "staticwebassets\\images\\testi_03.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\unrwa-logo-0DB0E000FE-seeklogo.com.png",
+      "PackagePath": "staticwebassets\\images\\unrwa-logo-0DB0E000FE-seeklogo.com.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\user-color-64.png",
+      "PackagePath": "staticwebassets\\images\\user-color-64.png"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\images\\user.jpg",
+      "PackagePath": "staticwebassets\\images\\user.jpg"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\All\\TabelStyle.js",
+      "PackagePath": "staticwebassets\\js\\All\\TabelStyle.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor - Copy\\AddIllenssesToPreview3.js",
+      "PackagePath": "staticwebassets\\js\\Doctor - Copy\\AddIllenssesToPreview3.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor - Copy\\AddIllenssesToPreview4.js",
+      "PackagePath": "staticwebassets\\js\\Doctor - Copy\\AddIllenssesToPreview4.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor - Copy\\AddIllenssesToPreview5.js",
+      "PackagePath": "staticwebassets\\js\\Doctor - Copy\\AddIllenssesToPreview5.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor - Copy\\AddLabTestToPreview3.js",
+      "PackagePath": "staticwebassets\\js\\Doctor - Copy\\AddLabTestToPreview3.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor - Copy\\AddLabTestToPreview4.js",
+      "PackagePath": "staticwebassets\\js\\Doctor - Copy\\AddLabTestToPreview4.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor - Copy\\AddMeasurementToPreview.js",
+      "PackagePath": "staticwebassets\\js\\Doctor - Copy\\AddMeasurementToPreview.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor - Copy\\AddMedicine2.js",
+      "PackagePath": "staticwebassets\\js\\Doctor - Copy\\AddMedicine2.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor - Copy\\AddMedicine3.js",
+      "PackagePath": "staticwebassets\\js\\Doctor - Copy\\AddMedicine3.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor - Copy\\LabTestFilter.js",
+      "PackagePath": "staticwebassets\\js\\Doctor - Copy\\LabTestFilter.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor - Copy\\LabTestFilter2.js",
+      "PackagePath": "staticwebassets\\js\\Doctor - Copy\\LabTestFilter2.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor - Copy\\MedicineFilter2.js",
+      "PackagePath": "staticwebassets\\js\\Doctor - Copy\\MedicineFilter2.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor - Copy\\PatientIllnessFilter.js",
+      "PackagePath": "staticwebassets\\js\\Doctor - Copy\\PatientIllnessFilter.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor - Copy\\PatientIllnessFilter1.js",
+      "PackagePath": "staticwebassets\\js\\Doctor - Copy\\PatientIllnessFilter1.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor - Copy\\PatientIllnessFilter3.js",
+      "PackagePath": "staticwebassets\\js\\Doctor - Copy\\PatientIllnessFilter3.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor - Copy\\PatientLabTestFilter.js",
+      "PackagePath": "staticwebassets\\js\\Doctor - Copy\\PatientLabTestFilter.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor - Copy\\PatientLabTestFilter1.js",
+      "PackagePath": "staticwebassets\\js\\Doctor - Copy\\PatientLabTestFilter1.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor - Copy\\PatientMeasurementsFilter.js",
+      "PackagePath": "staticwebassets\\js\\Doctor - Copy\\PatientMeasurementsFilter.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor - Copy\\PatientMeasurementsFilter2.js",
+      "PackagePath": "staticwebassets\\js\\Doctor - Copy\\PatientMeasurementsFilter2.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor - Copy\\PatientMeasurementsFilter3.js",
+      "PackagePath": "staticwebassets\\js\\Doctor - Copy\\PatientMeasurementsFilter3.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor - Copy\\PatientMedicinesFilter.js",
+      "PackagePath": "staticwebassets\\js\\Doctor - Copy\\PatientMedicinesFilter.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor - Copy\\PatientMedicinesFilter2.js",
+      "PackagePath": "staticwebassets\\js\\Doctor - Copy\\PatientMedicinesFilter2.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor - Copy\\PreviewIllnessFilter.js",
+      "PackagePath": "staticwebassets\\js\\Doctor - Copy\\PreviewIllnessFilter.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor - Copy\\PreviewLabTestFilter.js",
+      "PackagePath": "staticwebassets\\js\\Doctor - Copy\\PreviewLabTestFilter.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor - Copy\\PreviewLabTestFilter2.js",
+      "PackagePath": "staticwebassets\\js\\Doctor - Copy\\PreviewLabTestFilter2.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor - Copy\\PreviewMedicineFilter.js",
+      "PackagePath": "staticwebassets\\js\\Doctor - Copy\\PreviewMedicineFilter.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor - Copy\\PreviewMedicineFilter2.js",
+      "PackagePath": "staticwebassets\\js\\Doctor - Copy\\PreviewMedicineFilter2.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor - Copy\\TTT.js",
+      "PackagePath": "staticwebassets\\js\\Doctor - Copy\\TTT.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor - Copy\\nextAppointment.js",
+      "PackagePath": "staticwebassets\\js\\Doctor - Copy\\nextAppointment.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor\\AddIllenssesToPreview3.js",
+      "PackagePath": "staticwebassets\\js\\Doctor\\AddIllenssesToPreview3.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor\\AddIllenssesToPreview4.js",
+      "PackagePath": "staticwebassets\\js\\Doctor\\AddIllenssesToPreview4.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor\\AddIllenssesToPreview5.js",
+      "PackagePath": "staticwebassets\\js\\Doctor\\AddIllenssesToPreview5.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor\\AddLabTestToPreview3.js",
+      "PackagePath": "staticwebassets\\js\\Doctor\\AddLabTestToPreview3.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor\\AddLabTestToPreview4.js",
+      "PackagePath": "staticwebassets\\js\\Doctor\\AddLabTestToPreview4.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor\\AddMeasurementToPreview.js",
+      "PackagePath": "staticwebassets\\js\\Doctor\\AddMeasurementToPreview.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor\\AddMeasurementToPreview1.js",
+      "PackagePath": "staticwebassets\\js\\Doctor\\AddMeasurementToPreview1.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor\\AddMedicine2.js",
+      "PackagePath": "staticwebassets\\js\\Doctor\\AddMedicine2.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor\\AddMedicine3.js",
+      "PackagePath": "staticwebassets\\js\\Doctor\\AddMedicine3.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor\\AddMedicine4.js",
+      "PackagePath": "staticwebassets\\js\\Doctor\\AddMedicine4.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor\\LabTestFilter.js",
+      "PackagePath": "staticwebassets\\js\\Doctor\\LabTestFilter.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor\\LabTestFilter2.js",
+      "PackagePath": "staticwebassets\\js\\Doctor\\LabTestFilter2.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor\\MedicineFilter2.js",
+      "PackagePath": "staticwebassets\\js\\Doctor\\MedicineFilter2.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor\\PatientIllnessFilter.js",
+      "PackagePath": "staticwebassets\\js\\Doctor\\PatientIllnessFilter.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor\\PatientIllnessFilter1.js",
+      "PackagePath": "staticwebassets\\js\\Doctor\\PatientIllnessFilter1.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor\\PatientIllnessFilter3.js",
+      "PackagePath": "staticwebassets\\js\\Doctor\\PatientIllnessFilter3.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor\\PatientLabTestFilter.js",
+      "PackagePath": "staticwebassets\\js\\Doctor\\PatientLabTestFilter.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor\\PatientLabTestFilter1.js",
+      "PackagePath": "staticwebassets\\js\\Doctor\\PatientLabTestFilter1.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor\\PatientLabTestFilter2.js",
+      "PackagePath": "staticwebassets\\js\\Doctor\\PatientLabTestFilter2.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor\\PatientLabTestFilter3.js",
+      "PackagePath": "staticwebassets\\js\\Doctor\\PatientLabTestFilter3.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor\\PatientMeasurementsFilter.js",
+      "PackagePath": "staticwebassets\\js\\Doctor\\PatientMeasurementsFilter.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor\\PatientMeasurementsFilter2.js",
+      "PackagePath": "staticwebassets\\js\\Doctor\\PatientMeasurementsFilter2.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor\\PatientMeasurementsFilter3.js",
+      "PackagePath": "staticwebassets\\js\\Doctor\\PatientMeasurementsFilter3.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor\\PatientMedicinesFilter.js",
+      "PackagePath": "staticwebassets\\js\\Doctor\\PatientMedicinesFilter.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor\\PatientMedicinesFilter2.js",
+      "PackagePath": "staticwebassets\\js\\Doctor\\PatientMedicinesFilter2.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor\\PreviewIllnessFilter.js",
+      "PackagePath": "staticwebassets\\js\\Doctor\\PreviewIllnessFilter.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor\\PreviewLabTestFilter.js",
+      "PackagePath": "staticwebassets\\js\\Doctor\\PreviewLabTestFilter.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor\\PreviewLabTestFilter2.js",
+      "PackagePath": "staticwebassets\\js\\Doctor\\PreviewLabTestFilter2.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor\\PreviewMedicineFilter.js",
+      "PackagePath": "staticwebassets\\js\\Doctor\\PreviewMedicineFilter.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor\\PreviewMedicineFilter2.js",
+      "PackagePath": "staticwebassets\\js\\Doctor\\PreviewMedicineFilter2.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor\\TTT.js",
+      "PackagePath": "staticwebassets\\js\\Doctor\\TTT.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Doctor\\nextAppointment.js",
+      "PackagePath": "staticwebassets\\js\\Doctor\\nextAppointment.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Home\\login.js",
+      "PackagePath": "staticwebassets\\js\\Home\\login.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Home\\loginValidation1.js",
+      "PackagePath": "staticwebassets\\js\\Home\\loginValidation1.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Home\\loginValidation2.js",
+      "PackagePath": "staticwebassets\\js\\Home\\loginValidation2.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Notification\\Notification.js",
+      "PackagePath": "staticwebassets\\js\\Notification\\Notification.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\QUEUE.js",
+      "PackagePath": "staticwebassets\\js\\QUEUE.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\Tester\\LabTesManagement.js",
+      "PackagePath": "staticwebassets\\js\\Tester\\LabTesManagement.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\TweenMax.min.js",
+      "PackagePath": "staticwebassets\\js\\TweenMax.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\all.js",
+      "PackagePath": "staticwebassets\\js\\all.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\browse medicine.js",
+      "PackagePath": "staticwebassets\\js\\browse medicine.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\browse the analytics.js",
+      "PackagePath": "staticwebassets\\js\\browse the analytics.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\contact-form-script.js",
+      "PackagePath": "staticwebassets\\js\\contact-form-script.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\d1.js",
+      "PackagePath": "staticwebassets\\js\\d1.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\form-validator.min.js",
+      "PackagePath": "staticwebassets\\js\\form-validator.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\images-loded.min.js",
+      "PackagePath": "staticwebassets\\js\\images-loded.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\isotope.min.js",
+      "PackagePath": "staticwebassets\\js\\isotope.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\jquery.pogo-slider.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.pogo-slider.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\modernizer.js",
+      "PackagePath": "staticwebassets\\js\\modernizer.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\patient.js",
+      "PackagePath": "staticwebassets\\js\\patient.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\pharmacist\\recipeRecords.js",
+      "PackagePath": "staticwebassets\\js\\pharmacist\\recipeRecords.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\responsiveslides.min.js",
+      "PackagePath": "staticwebassets\\js\\responsiveslides.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\slider-index.js",
+      "PackagePath": "staticwebassets\\js\\slider-index.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\js\\smoothscroll.js",
+      "PackagePath": "staticwebassets\\js\\smoothscroll.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\rama\\Desktop\\UNRWA\\graduit_project\\UNRWAHealthProgramme\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.UNRWAHealthProgramme.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.UNRWAHealthProgramme.props",
+      "PackagePath": "build\\UNRWAHealthProgramme.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.UNRWAHealthProgramme.props",
+      "PackagePath": "buildMultiTargeting\\UNRWAHealthProgramme.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.UNRWAHealthProgramme.props",
+      "PackagePath": "buildTransitive\\UNRWAHealthProgramme.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

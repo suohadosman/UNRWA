@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UNRWAHealthProgramme", "UNRWAHealthProgramme\UNRWAHealthProgramme.csproj", "{FAFD9A37-A53F-4E55-A934-6EA809B0CE03}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IUNRWA_Model", "IUNRWA_Model\IUNRWA_Model.csproj", "{D8E0231C-2980-4958-BC7D-92F1273B74C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IUNRWA_Repository", "IUNRWA_Repository\IUNRWA_Repository.csproj", "{080D01BB-7946-4906-AF0B-97DC2C181FAF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IUNRWA_Service", "IUNRWA_Service\IUNRWA_Service.csproj", "{34D2212E-67AA-40B1-9B02-305FC30418DE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IUNRWA_ShareKernal", "IUNRWA_ShareKernal\IUNRWA_ShareKernal.csproj", "{9DB73C2F-1D94-42D3-892B-B06DB7B3FFA6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IUNRWA_DTOs", "IUNRWA_DTOs\IUNRWA_DTOs.csproj", "{687D0753-81F8-4730-B93B-93AEEB1B5B7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAFD9A37-A53F-4E55-A934-6EA809B0CE03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAFD9A37-A53F-4E55-A934-6EA809B0CE03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAFD9A37-A53F-4E55-A934-6EA809B0CE03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAFD9A37-A53F-4E55-A934-6EA809B0CE03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8E0231C-2980-4958-BC7D-92F1273B74C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8E0231C-2980-4958-BC7D-92F1273B74C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8E0231C-2980-4958-BC7D-92F1273B74C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8E0231C-2980-4958-BC7D-92F1273B74C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{080D01BB-7946-4906-AF0B-97DC2C181FAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{080D01BB-7946-4906-AF0B-97DC2C181FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{080D01BB-7946-4906-AF0B-97DC2C181FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{080D01BB-7946-4906-AF0B-97DC2C181FAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34D2212E-67AA-40B1-9B02-305FC30418DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34D2212E-67AA-40B1-9B02-305FC30418DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34D2212E-67AA-40B1-9B02-305FC30418DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34D2212E-67AA-40B1-9B02-305FC30418DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DB73C2F-1D94-42D3-892B-B06DB7B3FFA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DB73C2F-1D94-42D3-892B-B06DB7B3FFA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DB73C2F-1D94-42D3-892B-B06DB7B3FFA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DB73C2F-1D94-42D3-892B-B06DB7B3FFA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{687D0753-81F8-4730-B93B-93AEEB1B5B7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{687D0753-81F8-4730-B93B-93AEEB1B5B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{687D0753-81F8-4730-B93B-93AEEB1B5B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{687D0753-81F8-4730-B93B-93AEEB1B5B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {805E241A-B68B-4544-8603-010837F953B8}
+	EndGlobalSection
+EndGlobal

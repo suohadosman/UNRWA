@@ -1,0 +1,94 @@
+
+.img1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; 
+  }
+  
+  
+  .logo__name{
+    color: white !important;
+  }
+  .nav-link{
+    color: white !important ;
+  
+  }
+  .img__1{
+    width: 40px;
+    height: 40px;
+  }
+  
+  .navbar-nav{
+    margin-left: 8rem;
+  }
+  
+  .nav-item{
+    margin:0 1rem;
+    font-weight: 600;
+    color: var(--brown-color);
+  }
+  
+  @media screen and (max-width:1000px){
+    .nav__icons{
+      display: none ;
+    }
+    body{
+      overflow-x: hidden;
+    }
+  }
+  
+body{
+    background-image: url("../images/1584350380036.png") ;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ background-attachment: fixed;
+
+}
+.service-time{
+    -webkit-border-radius: 18px; 
+border-radius: 10px; 
+background: #0060b1;
+
+height: 190px;
+
+}  
+  .text_1{
+    padding-top: 4rem; 
+    text-align: right;
+     padding-right: 30px;
+     color: #fff;
+  }
+  @media screen and (max-width:524px){
+      .text_1{
+          font-size: 20px;
+          text-align: center;
+      }
+  }
+  .text_2{
+      font-size: 15px;
+      font-weight: 700;
+      text-align: center;
+      padding-top: 40px;
+      color: #fff;
+  }
+  .effect-1{
+     margin-top: 25px;
+  
+  }
+  .button_1 {
+    background: linear-gradient(to right, #1d86df 0%, #0060b1 100%);
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #fff !important;
+    
+    padding: 8px 30px;
+    border-radius: 50px;
+    transition: ease all 1s;
+    font-weight: 600;
+    width: 50%;
+}
+ .button_1:hover,.button_1:focus {
+    background: linear-gradient(to right, #0060b1 0%, #1d86df 100%);}
+

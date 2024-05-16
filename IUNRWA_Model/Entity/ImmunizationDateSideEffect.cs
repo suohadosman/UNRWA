@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace IUNRWA_Model.Entity
+{
+    public class ImmunizationDateSideEffect : BaseEntity
+    {
+        public ImmunizationDate ImmunizationDate { set; get; }
+        public SideEffect SideEffect { set; get; }
+    }
+}

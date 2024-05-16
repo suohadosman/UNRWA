@@ -1,0 +1,36 @@
+C:\Users\العبه جي\Desktop\GraduitProject - Copy\UNRWAProgrmme\IUNRWA_ShareKernal\bin\Debug\net7.0\IUNRWA_ShareKernal.deps.json
+C:\Users\العبه جي\Desktop\GraduitProject - Copy\UNRWAProgrmme\IUNRWA_ShareKernal\bin\Debug\net7.0\IUNRWA_ShareKernal.dll
+C:\Users\العبه جي\Desktop\GraduitProject - Copy\UNRWAProgrmme\IUNRWA_ShareKernal\bin\Debug\net7.0\IUNRWA_ShareKernal.pdb
+C:\Users\العبه جي\Desktop\GraduitProject - Copy\UNRWAProgrmme\IUNRWA_ShareKernal\obj\Debug\net7.0\IUNRWA_ShareKernal.csproj.AssemblyReference.cache
+C:\Users\العبه جي\Desktop\GraduitProject - Copy\UNRWAProgrmme\IUNRWA_ShareKernal\obj\Debug\net7.0\IUNRWA_ShareKernal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\العبه جي\Desktop\GraduitProject - Copy\UNRWAProgrmme\IUNRWA_ShareKernal\obj\Debug\net7.0\IUNRWA_ShareKernal.AssemblyInfoInputs.cache
+C:\Users\العبه جي\Desktop\GraduitProject - Copy\UNRWAProgrmme\IUNRWA_ShareKernal\obj\Debug\net7.0\IUNRWA_ShareKernal.AssemblyInfo.cs
+C:\Users\العبه جي\Desktop\GraduitProject - Copy\UNRWAProgrmme\IUNRWA_ShareKernal\obj\Debug\net7.0\IUNRWA_ShareKernal.csproj.CoreCompileInputs.cache
+C:\Users\العبه جي\Desktop\GraduitProject - Copy\UNRWAProgrmme\IUNRWA_ShareKernal\obj\Debug\net7.0\IUNRWA_ShareKernal.dll
+C:\Users\العبه جي\Desktop\GraduitProject - Copy\UNRWAProgrmme\IUNRWA_ShareKernal\obj\Debug\net7.0\refint\IUNRWA_ShareKernal.dll
+C:\Users\العبه جي\Desktop\GraduitProject - Copy\UNRWAProgrmme\IUNRWA_ShareKernal\obj\Debug\net7.0\IUNRWA_ShareKernal.pdb
+C:\Users\العبه جي\Desktop\GraduitProject - Copy\UNRWAProgrmme\IUNRWA_ShareKernal\obj\Debug\net7.0\ref\IUNRWA_ShareKernal.dll
+C:\Users\العبه جي\Source\Repos\graduit_project\IUNRWA_ShareKernal\bin\Debug\net7.0\IUNRWA_ShareKernal.deps.json
+C:\Users\العبه جي\Source\Repos\graduit_project\IUNRWA_ShareKernal\bin\Debug\net7.0\IUNRWA_ShareKernal.dll
+C:\Users\العبه جي\Source\Repos\graduit_project\IUNRWA_ShareKernal\bin\Debug\net7.0\IUNRWA_ShareKernal.pdb
+C:\Users\العبه جي\Source\Repos\graduit_project\IUNRWA_ShareKernal\obj\Debug\net7.0\IUNRWA_ShareKernal.csproj.AssemblyReference.cache
+C:\Users\العبه جي\Source\Repos\graduit_project\IUNRWA_ShareKernal\obj\Debug\net7.0\IUNRWA_ShareKernal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\العبه جي\Source\Repos\graduit_project\IUNRWA_ShareKernal\obj\Debug\net7.0\IUNRWA_ShareKernal.AssemblyInfoInputs.cache
+C:\Users\العبه جي\Source\Repos\graduit_project\IUNRWA_ShareKernal\obj\Debug\net7.0\IUNRWA_ShareKernal.AssemblyInfo.cs
+C:\Users\العبه جي\Source\Repos\graduit_project\IUNRWA_ShareKernal\obj\Debug\net7.0\IUNRWA_ShareKernal.csproj.CoreCompileInputs.cache
+C:\Users\العبه جي\Source\Repos\graduit_project\IUNRWA_ShareKernal\obj\Debug\net7.0\IUNRWA_ShareKernal.dll
+C:\Users\العبه جي\Source\Repos\graduit_project\IUNRWA_ShareKernal\obj\Debug\net7.0\refint\IUNRWA_ShareKernal.dll
+C:\Users\العبه جي\Source\Repos\graduit_project\IUNRWA_ShareKernal\obj\Debug\net7.0\IUNRWA_ShareKernal.pdb
+C:\Users\العبه جي\Source\Repos\graduit_project\IUNRWA_ShareKernal\obj\Debug\net7.0\ref\IUNRWA_ShareKernal.dll
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_ShareKernal\bin\Debug\net7.0\IUNRWA_ShareKernal.deps.json
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_ShareKernal\bin\Debug\net7.0\IUNRWA_ShareKernal.dll
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_ShareKernal\bin\Debug\net7.0\IUNRWA_ShareKernal.pdb
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_ShareKernal\obj\Debug\net7.0\IUNRWA_ShareKernal.csproj.AssemblyReference.cache
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_ShareKernal\obj\Debug\net7.0\IUNRWA_ShareKernal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_ShareKernal\obj\Debug\net7.0\IUNRWA_ShareKernal.AssemblyInfoInputs.cache
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_ShareKernal\obj\Debug\net7.0\IUNRWA_ShareKernal.AssemblyInfo.cs
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_ShareKernal\obj\Debug\net7.0\IUNRWA_ShareKernal.csproj.CoreCompileInputs.cache
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_ShareKernal\obj\Debug\net7.0\IUNRWA_ShareKernal.dll
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_ShareKernal\obj\Debug\net7.0\refint\IUNRWA_ShareKernal.dll
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_ShareKernal\obj\Debug\net7.0\IUNRWA_ShareKernal.pdb
+C:\Users\rama\Desktop\UNRWA\graduit_project\IUNRWA_ShareKernal\obj\Debug\net7.0\ref\IUNRWA_ShareKernal.dll

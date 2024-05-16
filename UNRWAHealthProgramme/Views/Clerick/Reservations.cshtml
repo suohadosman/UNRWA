@@ -1,0 +1,564 @@
+﻿@model ClerickViewsDto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/css/mange appointment.css">
+    <link rel="stylesheet" href="~/css/All/Toaster.css">
+    <title>Reservations</title>
+
+
+</head>
+<body>
+    <!--Notification-->
+    <div id="snackbar">Some text some message..</div>
+    @if (TempData["SuccessAddNormalReservation"] != null)
+    {
+        <script>
+            var x = document.getElementById("snackbar");
+            x.className = "show";
+            x.innerText = "Added successfully"
+            setTimeout(function () { x.className = x.className.replace("show", ""); }, 3000);
+        </script>
+    }
+    @if (TempData["FaildAddNormalReservation"] != null)
+    {
+        <script>
+            var x = document.getElementById("snackbar");
+            x.className = "error";
+            x.innerText = "Add failed"
+            setTimeout(function () { x.className = x.className.replace("error", ""); }, 3000);
+        </script>
+    }
+
+    @if (TempData["SuccessAddQuickAppointmet"] != null)
+    {
+        <script>
+            var x = document.getElementById("snackbar");
+            x.className = "show";
+            x.innerText = "Added successfully"
+            setTimeout(function () { x.className = x.className.replace("show", ""); }, 3000);
+        </script>
+    }
+    @if (TempData["FaildAddQuickAppointmet"] != null)
+    {
+        <script>
+            var x = document.getElementById("snackbar");
+            x.className = "error";
+            x.innerText = "Add failed"
+            setTimeout(function () { x.className = x.className.replace("error", ""); }, 3000);
+        </script>
+    }
+
+    @if (TempData["SuccessDeleteAppointmet"] != null)
+    {
+        <script>
+            var x = document.getElementById("snackbar");
+            x.className = "show";
+            x.innerText = "Deleted successfully"
+            setTimeout(function () { x.className = x.className.replace("show", ""); }, 3000);
+        </script>
+    }
+    @if (TempData["FaildDeleteAppointmet"] != null)
+    {
+        <script>
+            var x = document.getElementById("snackbar");
+            x.className = "error";
+            x.innerText = "Delete failed"
+            setTimeout(function () { x.className = x.className.replace("error", ""); }, 3000);
+        </script>
+    }
+    <!--NaveBar-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #1d86df; height: 3.5rem; z-index:0">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="font-size: 17px;"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNavDropdown" style="background-color: #1d86df;">
+            <ul class="navbar-nav" style="background-color: #1d86df;">
+                <li class="nav-item active">
+                    <a class="navbar-brand ">
+                        <img src="~/images/user-color-64.png" alt="logo" class="img1 img-fluid">
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" style="font-size: 17px;">@Model.User.UserName</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" style="font-size: 17px;">@Model.User.HealthCenter.Name Center</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" style="font-size: 17px;">@Model.User.Team.Name Team</a>
+
+                </li>
+                <li class="nav-item active">
+                    <a asp-action="Home" asp-controller="Clerick" class="nav-link btn" id="logout-icon"
+                       style="font-size: 17px; border: solid 1px; width: 132px; padding: 6px;text-align: center;">
+                        Back
+                    </a>
+
+                </li>
+                <li class="nav-item active">
+                    <a asp-action="Logout" asp-controller="Clerick" class="nav-link btn" id="logout-icon"
+                       style="font-size: 17px; border: solid 1px; width: 132px; padding: 6px;text-align: center;">
+                        Logout
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0v2z" />
+                            <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z" />
+                        </svg>
+                    </a>
+
+                </li>
+
+
+            </ul>
+        </div>
+        <div class="nav__icons">
+            <img src="~/images/unrwa-logo-0DB0E000FE-seeklogo.com.png" alt="logo" class=" img__1 img-fluid">
+        </div>
+
+
+    </nav>
+
+
+    <!-- top buttons-->
+    <div class="container" style="padding-top: 100px;">
+        <div class="row" style="justify-content:space-evenly">
+            <div class="col-lg-4 col-md-12 col-ms-12">
+                <a href="" target="_blank" data-scroll data-toggle="modal" data-target="#exampleModal_0" class="btn btn-light btn-radius button_2 btn-brd grd1 effect-1">Quick booking</a>
+            </div>
+            <div class="col-lg-4 col-ms-12 col-md-12">
+                <a href="" target="_blank" data-scroll data-toggle="modal" data-target="#exampleModal" class="btn btn-light btn-radius button_2 btn-brd grd1 effect-1">add</a>
+
+            </div>
+        </div>
+    </div>
+    <!-- Add reservation Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+
+            <!--Add reservation From-->
+            <form class="modal-content" asp-action="post">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel" style="color: #1d86df ;">Add Reservation</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: #1d86df ;">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="inner" style="height: 700px">
+
+                        <label class="form-group">
+
+                            <h6 style="color: white; margin-bottom: 30px;">
+                                patient Name: <br />@Model.PersonInfo.FirstName @Model.PersonInfo.LastName </h6>
+                            <span class="border"></span>
+                        </label>
+
+                        <!--Date-->
+                        <div class="form-group">
+                            <label style="color: aliceblue;margin-top: 8px;">Date:</label>
+                            <input type="date" class="form-control" asp-for="AjaxDate">
+                        </div>
+
+                       
+                        <!--save individual id-->
+                        <input asp-for="ReservationFormDto.PersonId" value="@Model.PersonInfo.Id" style="display:none" />
+
+                        <!--service select-->
+                        <div class="form-group">
+                            <label asp-for="ReservationFormDto.ServiceId" style="color: aliceblue;"></label>
+                            <select asp-for="ReservationFormDto.ServiceId" asp-items="@(new SelectList(Model.Services,"Id","Name"))"
+                                    class="form-select" aria-label="Default select example" style="color: #1d86df; width: 300px;">
+                                <option selected></option>
+                            </select>
+
+                            <span asp-validation-for="ReservationFormDto.ServiceId" class="text-danger"></span>
+
+
+                        </div>
+
+                        <!--Team Select-->
+                        <div class="form-group">
+                            <label style="color: aliceblue;">Team</label>
+                            <select asp-for="TeamId" asp-items="@(new SelectList(Model.Teams,"Id","Name"))"
+                                    class="form-select" aria-label="Default select example" style="color: #1d86df; width: 300px;">
+                                <option selected></option>
+
+                            </select>
+                            <span asp-validation-for="TeamId" class="text-danger"></span>
+
+                        </div>
+
+                        <!--Doctor Select-->
+                        <div class="form-group">
+                            <label style="color: aliceblue;">Provider:</label>
+                            <select asp-for="AjaxDoctorByTeamId" asp-items="@(new SelectList(@Model.Doctors,"Id","Name"))"
+                                    class="form-select" aria-label="Default select example" style="color: #1d86df; width: 300px;">
+                                <option selected></option>
+
+                            </select>
+                            <span asp-validation-for="AjaxDoctorByTeamId" style="color: red !important;"></span>
+
+                        </div>
+
+                        <!--Time Select-->
+                        <div class="form-group">
+                            <label  style="color: aliceblue;">Time:</label>
+                            <select asp-for="AjaxAvailableTimeSloteId" asp-items="@(new SelectList(Model.TimeSlotes,"Id","Slote"))"
+                                    class="form-select" aria-label="Default select example" style="color: #1d86df; width: 300px;">
+                                <option selected></option>
+                            </select>
+                            <span asp-validation-for="AjaxAvailableTimeSloteId" style="color:red !important;"></span>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+
+                    <button type="submit" class="btn btn-primary btn btn-light btn-radius button_2 btn-brd grd1 effect-1" asp-action="AddNormalReservation" asp-controller="Clerick">Add</button>
+                    <button type="button" class="btn btn-secondary  btn btn-light btn-radius button_2 btn-brd grd1 effect-1" data-dismiss="modal">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+    <!-- Button trigger modal -->
+    <!-- Quick Appointment Modal -->
+    <div class="modal fade" id="exampleModal_0" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+
+            <!--Quick appointment Form -->
+            <form class="modal-content" asp-action="post">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel" style="color: #1d86df ;">Quick Appointment</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: #1d86df ;">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="inner" style="height: 450px;">
+
+                        <label class="form-group">
+
+                            <h6 style="color: white; margin-bottom: 30px;">
+                                patient Name: @Model.PersonInfo.FirstName @Model.PersonInfo.LastName<br />
+                            </h6>
+                            <span class="border"></span>
+                        </label>
+
+                        <!--save individual id-->
+                        <input asp-for="ReservationFormDto.PersonId" value="@Model.PersonInfo.Id" style="display:none" />
+
+                        <!--service select-->
+                        <div class="form-group">
+                            <label asp-for="ReservationFormDto.ServiceId" style="color: aliceblue;"></label>
+                            <select asp-for="ReservationFormDto.ServiceId" asp-items="@(new SelectList(@Model.Services,"Id","Name"))"
+                                    class="form-select" aria-label="Default select example" style="color: #1d86df; width: 300px;">
+                                <option selected></option>
+
+                            </select>
+                            <span asp-validation-for="ReservationFormDto.ServiceId" style="color:red !important;"></span>
+
+                        </div>
+
+                        <!--Team Select-->
+                        <div class="form-group">
+                            <label style="color: aliceblue;">Team:</label>
+                            <select asp-for="TeamIdQuick" asp-items="@(new SelectList(Model.Teams,"Id","Name"))"
+                                    class="form-select" aria-label="Default select example" style="color: #1d86df; width: 300px;">
+                                <option selected></option>
+
+                            </select>
+                            <span asp-validation-for="TeamIdQuick" class="text-danger"></span>
+                        </div>
+                        <!--Doctor Select-->
+
+                        <div class="form-group">
+                            <label style="color: aliceblue;">Provider:</label>
+                            <select asp-for="AjaxDoctorByTeamIdQuick" asp-items="@(new SelectList(@Model.Doctors,"Id","Name"))"
+                                    class="form-select" aria-label="Default select example" style="color: #1d86df; width: 300px;">
+                                <option selected></option>
+
+                            </select>
+                            <span asp-validation-for="AjaxDoctorByTeamIdQuick" style="color: red !important;"></span>
+
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+
+                    <button type="submit" class="btn btn-primary btn btn-light btn-radius button_2 btn-brd grd1 effect-1" asp-action="AddQuickReservation" asp-controller="Clerick" id="addquick">Add</button>
+                    <button type="button" class="btn btn-secondary  btn btn-light btn-radius button_2 btn-brd grd1 effect-1" data-dismiss="modal">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="table_box">
+
+
+        <!--Appointments Table-->
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th style="width: 18%;" class="head">Status</th>
+
+                    <th style="width: 18%;" class="head">Date</th>
+
+                    <th style="width: 18%;" class="head">Service</th>
+                    <th style="width: 20%;" class="head">Who provided the Service</th>
+
+                    <th style="width:25%;" class="head">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.AllPersonReservations)
+                {
+
+                    <tr>
+                        @if (@item.Type.Equals(ReservationType.Quick)) 
+                        {
+                            <td style="color:dimgray;  font-weight: bold">Quick</td>
+                        }
+                        else if (@item.Status.Equals(ReservationStatus.Done))
+                        {
+                            <td style="color:blue;  font-weight: bold">Done</td>
+                        }
+                        else if (item.Status.Equals(ReservationStatus.Missing)) 
+                        {
+                            <td style="color:red;  font-weight: bold">Missing</td>
+                        }
+                        else if (item.Status.Equals(ReservationStatus.Waitting))
+                        {
+                            <td style="color:green;  font-weight: bold">Waitting</td>
+                        }
+                        else
+                        {
+                            <td style="color:palegreen;  font-weight: bold">Unknown</td>
+                        }
+
+                        <td>@item.Date</td>
+                        <td>@item.ServiceName</td>
+                        <td> @item.DoctorName </td>
+
+                        <td>
+                           <a href="" target="_blank" data-scroll class="btn btn-light btn-radius button_1 btn-brd grd1 effect-1" data-toggle="modal" data-target="#exampleModal_@item.ReservationId">Delete <i class='bx bx-trash'></i></a>
+
+                        </td>
+
+                    </tr>
+
+                }
+
+            </tbody>
+        </table>
+    </div>
+
+    <!--Notes-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-ms-12">
+                <div class="content">
+                    <h3 style="padding-left: 30px;">
+                        notes:
+                    </h3>
+
+                    <textarea readonly> Age: @Model.PersonInfo.Age
+                        @if(Model.PersonInfo.Age > 50 && string.IsNullOrEmpty(Model.PersonInfo.NCD))
+                        {
+                            <text>You Have To Do NCD Test
+                            </text>
+                        }
+                    </textarea>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Delete Modal -->
+   @foreach (var item in Model.AllPersonReservations)
+    {
+
+        <form class="modal fade" id="exampleModal_@item.ReservationId" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" method="post">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel" style="color: #1d86df;">Delete Appointment</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: #1d86df;">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" style="color: #1d86df;">
+                        Are you sure you want to delete this appointment?
+                    </div>
+                    <div class="modal-footer">
+                        <input type="hidden" asp-for="PersonId" value="@item.PersonId" />
+                        <input type="hidden" asp-for="ReservationId" value="@item.ReservationId">
+                        <button type="submit" class="btn btn-primary button_2 btn-brd grd1 effect-1" asp-action="RemoveReservation" asp-controller="Clerick">Yes</button>
+                        <button type="button" class="btn btn-secondary button_2 btn-brd grd1 effect-1" data-dismiss="modal">No</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    }
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    
+    <!--validation-->
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+    <script src="~/lib/jquery/dist/jquery.js"> </script>
+
+</body>
+</html>
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            $('#TeamId').on('change', function () {
+                var teamId = $(this).val();
+                if (teamId !== '') {
+                    $.ajax({
+                        url: '/Clerick/GetDoctorsInTeam?teamId=' + teamId,
+                        success: function (result) {
+                            $('#AjaxDoctorByTeamId').empty();
+                            $('#AjaxDoctorByTeamId').append($('<option></option>'));
+                            $.each(result, function (i, doctor) {
+                                $('#AjaxDoctorByTeamId').append($('<option></option>').attr('value', doctor.id).text(doctor.name));
+                            });
+                        },
+                        error: function () {
+                            alert('something wrong!');
+                        }
+                    });
+                }
+            });
+        });
+
+        // quick reservation Doctor select
+        $(document).ready(function () {
+            $('#TeamIdQuick').on('change', function () {
+                var teamId = $(this).val();
+                if (teamId !== '') {
+                    $.ajax({
+                        url: '/Clerick/GetDoctorsInTeam?teamId=' + teamId,
+                        success: function (result) {
+                            $('#AjaxDoctorByTeamIdQuick').empty();
+                            $('#AjaxDoctorByTeamIdQuick').append($('<option></option>'));
+
+                            $.each(result, function (i, doctor) {
+                                $('#AjaxDoctorByTeamIdQuick').append($('<option></option>').attr('value', doctor.id).text(doctor.name));
+                            });
+                        },
+                        error: function () {
+                            alert('something wrong!');
+                        }
+                    });
+                }
+            });
+        });
+
+        // Edit reservation DoctorSelect
+        $(document).ready(function () {
+            $('#TeamIdEdit').on('change', function () {
+                var teamId = $(this).val();
+                if (teamId !== '') {
+                    $.ajax({
+                        url: '/Clerick/GetDoctorsInTeam?teamId=' + teamId,
+                        success: function (result) {
+                            $('#AjaxDoctorByTeamIdEdit').empty();
+                            $('#AjaxDoctorByTeamIdEdit').append($('<option></option>'));
+
+                            $.each(result, function (i, doctor) {
+                                $('#AjaxDoctorByTeamIdEdit').append($('<option></option>').attr('value', doctor.id).text(doctor.name));
+                            });
+                        },
+                        error: function () {
+                            alert('something wrong!');
+                        }
+                    });
+                }
+            });
+        });
+
+
+        //Available TimeSloteSelect
+        $(document).ready(function () {
+
+            $('#AjaxDoctorByTeamId').add('#AjaxDate').on('change', function () {
+                var date = $(this).val();
+
+                $.ajax({
+                    url: '/Clerick/GetAvaliabelTimeSlote',
+                    type: "POST",
+                    data: {
+                        Date: $("#AjaxDate").val(),
+                        DoctorId: $("#AjaxDoctorByTeamId").val(),
+                    },
+                    success: function (result) {
+                        $('#AjaxAvailableTimeSloteId').empty();
+                        $('#AjaxAvailableTimeSloteId').append($('<option></option>'));
+                        $.each(result, function (i, time) {
+                            $('#AjaxAvailableTimeSloteId').append($('<option></option>').attr('value', time.id).text(time.slote));
+                        });
+
+                    },
+                    error: function () {
+                        alert('something wrong!');
+                    }
+                });
+
+            });
+        });
+
+        //Available TimeSloteSelect Edit
+        $(document).ready(function () {
+
+            $('#AjaxDoctorByTeamIdEdit').add('#AjaxDateEdit').on('change', function () {
+                var date = $(this).val();
+
+                $.ajax({
+                    url: '/Clerick/GetAvaliabelTimeSlote',
+                    type: "POST",
+                    data: {
+                        Date: $("#AjaxDateEdit").val(),
+                        DoctorId: $("#AjaxDoctorByTeamIdEdit").val(),
+                    },
+                    success: function (result) {
+                        $('#AjaxAvailableTimeSloteIdEdit').empty();
+                        $('#AjaxAvailableTimeSloteIdEdit').append($('<option></option>'));
+                        $.each(result, function (i, time) {
+                            $('#AjaxAvailableTimeSloteIdEdit').append($('<option></option>').attr('value', time.id).text(time.slote));
+                        });
+
+                    },
+                    error: function () {
+                        alert('something wrong!');
+                    }
+                });
+
+            });
+        });
+    </script>
+        <partial name="_ValidationScriptsPartial">
+           
+        }
